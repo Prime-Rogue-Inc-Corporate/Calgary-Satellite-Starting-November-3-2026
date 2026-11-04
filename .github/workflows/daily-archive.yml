@@ -79,7 +79,7 @@ jobs:
           [ -d latest ] || exit 0
           gh release view latest >/dev/null 2>&1 || gh release create latest --title "Latest clear composite" \
             --notes "Rolling latest-clear-pixel composite over Calgary. Overwritten on every run." --latest=false
-          gh release upload latest latest/* --clobber
+          for i in 1 2 3 4; do gh release upload latest latest/* --clobber && exit 0; echo "upload failed, retry $i"; sleep $((i * 10)); done; exit 1
 
       - name: Size guard
         run: |
