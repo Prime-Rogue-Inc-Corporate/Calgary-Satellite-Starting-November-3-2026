@@ -1,0 +1,4 @@
+latest/
+__pycache__/
+*.pyc
+.venv/

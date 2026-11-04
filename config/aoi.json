@@ -1,0 +1,55 @@
+{
+  "name": "Calgary",
+  "bbox_lnglat": [
+    -114.32,
+    50.84,
+    -113.86,
+    51.21
+  ],
+  "grid_crs": "EPSG:3857",
+  "ground_res_m": {
+    "sentinel-2": 10,
+    "landsat": 30,
+    "sentinel-1": 10
+  },
+  "viirs_context_bbox_lnglat": [
+    -116.5,
+    49.8,
+    -111.5,
+    52.4
+  ],
+  "communities_source": "https://data.calgary.ca/resource/surr-xmvs.geojson?$limit=2000",
+  "sample_communities": {
+    "seed": 20261103,
+    "method": "Killarney/Glengarry fixed (editor's home community); one random draw each from NW, NE, SE pools plus one wildcard pool",
+    "names": [
+      "KILLARNEY/GLENGARRY",
+      "TUSCANY",
+      "SADDLE RIDGE",
+      "AUBURN BAY",
+      {
+        "label": "BELTLINE (FULL)",
+        "union": [
+          "BELTLINE",
+          "VICTORIA PARK",
+          "STAMPEDE PARK",
+          "CONNAUGHT"
+        ],
+        "note": "Full Beltline footprint: City districts merged; missing members are logged and skipped"
+      }
+    ]
+  },
+  "thresholds": {
+    "min_aoi_coverage": 0.3,
+    "min_clear_fraction": 0.15,
+    "change_cell_m": 500,
+    "change_min_valid": 0.6,
+    "change_robust_z": 4.0,
+    "max_annotations_per_pass": 8,
+    "change_min_abs_delta": {
+      "index": 0.12,
+      "db": 3.0
+    },
+    "min_ratio_denominator": 0.04
+  }
+}
