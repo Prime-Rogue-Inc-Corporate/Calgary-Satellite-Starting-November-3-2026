@@ -8,6 +8,7 @@ VIIRS / MODIS   -> NASA GIBS daily corrected-reflectance snapshots (see viirs.py
 from __future__ import annotations
 
 import datetime as dt
+import re
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 
@@ -48,12 +49,16 @@ def discover(sensor: str, start: dt.date, end: dt.date) -> list[dict]:
         p = it.properties
         day = it.datetime.strftime("%Y%m%d")
         orbit = p.get("sat:relative_orbit", "")
+        if orbit == "" and sensor == "sentinel-2":  # Earth Search keeps it only in the product URI (…_R027_…)
+            m = re.search(r"_R(\d{3})_", p.get("s2:product_uri", ""))
+            orbit = int(m.group(1)) if m else ""
         groups[(p.get("platform", sensor), day, orbit)].append(it)
     passes = []
     for (platform, day, orbit), items in groups.items():
         t0 = min(i.datetime for i in items)
         plat = platform.replace("sentinel-", "S").replace("landsat-", "L").upper()
-        pid = f"{plat}_{t0.strftime('%Y%m%dT%H%M')}" + (f"_R{orbit:03d}" if orbit != "" else "")
+        # SAR keeps the orbit in its id (several per day); optical ids stay platform + time
+        pid = f"{plat}_{t0.strftime('%Y%m%dT%H%M')}" + (f"_R{orbit:03d}" if orbit != "" and sensor == "sentinel-1" else "")
         passes.append(dict(pass_id=pid, sensor=sensor, family=cfg["family"], platform=platform,
                            datetime=t0.isoformat().replace("+00:00", "Z"), orbit=orbit,
                            items=items))

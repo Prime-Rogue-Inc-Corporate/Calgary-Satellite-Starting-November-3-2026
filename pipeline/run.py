@@ -26,10 +26,23 @@ def load_index():
     return {"aoi": CONFIG["name"], "bbox_lnglat": CONFIG["bbox_lnglat"], "passes": []}
 
 
+def _minute_of_day(iso):
+    return int(iso[11:13]) * 60 + int(iso[14:16])
+
+
+def same_track(a, b):
+    """Same orbit track: SAR by relative orbit; optical by overpass time of day (Calgary's two
+    Sentinel-2 tracks pass ~18:40 and ~18:50 UTC, Landsat paths ~6 min apart)."""
+    if a.get("relative_orbit") not in (None, "") and b.get("relative_orbit") not in (None, ""):
+        return a["relative_orbit"] == b["relative_orbit"]
+    return abs(_minute_of_day(a["datetime"]) - _minute_of_day(b["datetime"])) <= 4
+
+
 def baseline_for(index, rec):
+    """Most recent earlier archived pass of the same family on the same orbit track
+    (same footprint and view/sun geometry → fewer false changes)."""
     cands = [p for p in index["passes"] if p["family"] == rec["family"] and p["status"] == "archived"
-             and p["datetime"] < rec["datetime"]
-             and (rec["sensor"] != "sentinel-1" or p.get("relative_orbit") == rec.get("relative_orbit"))]
+             and p["datetime"] < rec["datetime"] and same_track(p, rec)]
     return max(cands, key=lambda p: p["datetime"]) if cands else None
 
 
@@ -52,23 +65,32 @@ def to_events(rec, ann):
     return out
 
 
-def run(days_back=10, sensors=("sentinel-2", "landsat", "sentinel-1"), do_annotate=True, start=None):
+def run(days_back=10, sensors=("sentinel-2", "landsat", "sentinel-1"), do_annotate=True, start=None,
+        end=None, baseline=False):
     index = load_index()
     known = {p["pass_id"] for p in index["passes"]}
     feats = communities.load(refresh=not (ROOT / "boundaries" / "communities.geojson").exists())
     loc = communities.Locator(feats)
     today = dt.datetime.now(dt.timezone.utc).date()
     start = start or max(ARCHIVE_EPOCH, today - dt.timedelta(days=days_back))
+    end = end or today
+    if not baseline and start < ARCHIVE_EPOCH:
+        raise SystemExit(f"Dates before {ARCHIVE_EPOCH} go in the baseline: add --baseline")
     events = json.loads(EVENTS.read_text()) if EVENTS.exists() else []
 
     todo = []
     for s in sensors:
         try:
-            todo += [p for p in sources.discover(s, start, today) if p["pass_id"] not in known]
+            found = [p for p in sources.discover(s, start, end) if p["pass_id"] not in known]
+            if baseline:
+                found = [p for p in found if p["datetime"][:10] < ARCHIVE_EPOCH.isoformat()]
+            for p in found:
+                p["baseline"] = baseline
+            todo += found
         except Exception as e:  # noqa: BLE001
             print(f"[discover] {s} failed: {e}")
     todo.sort(key=lambda p: p["datetime"])
-    print(f"[run] {len(todo)} new passes since {start}")
+    print(f"[run] {len(todo)} new {'baseline ' if baseline else ''}passes {start}..{end}")
 
     for p in todo:
         print(f"[run] {p['pass_id']} ({len(p['items'])} items)")
@@ -77,6 +99,8 @@ def run(days_back=10, sensors=("sentinel-2", "landsat", "sentinel-1"), do_annota
             stats = products.coverage_stats(b["mask"])
             base = {k: p[k] for k in ("pass_id", "sensor", "family", "platform", "datetime")}
             base["relative_orbit"] = p["orbit"]
+            if p.get("baseline"):
+                base["baseline"] = True
             if stats["aoi_coverage"] < T["min_aoi_coverage"] or stats.get("usable_fraction", 0) < T["min_clear_fraction"]:
                 index["passes"].append(base | {"status": "skipped", "reason": "coverage/cloud", "stats": stats,
                                                "source_items": [i.id for i in p["items"]]})
@@ -138,5 +162,8 @@ if __name__ == "__main__":
     ap.add_argument("--sensors", default="sentinel-2,landsat,sentinel-1")
     ap.add_argument("--no-annotate", action="store_true")
     ap.add_argument("--start", type=dt.date.fromisoformat, help="backfill from this UTC date")
+    ap.add_argument("--end", type=dt.date.fromisoformat, help="last UTC date (default today)")
+    ap.add_argument("--baseline", action="store_true",
+                    help="store pre-3-Nov-2026 reference passes in baseline/ (composite + change baseline only)")
     a = ap.parse_args()
-    run(a.days_back, tuple(a.sensors.split(",")), not a.no_annotate, a.start)
+    run(a.days_back, tuple(a.sensors.split(",")), not a.no_annotate, a.start, a.end, a.baseline)

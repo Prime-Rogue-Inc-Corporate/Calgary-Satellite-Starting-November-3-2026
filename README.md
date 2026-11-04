@@ -32,6 +32,7 @@ archive/<sensor>/YYYY/MM/DD/<pass_id>/
   changes/cell_*.webp  before/after panels sent to the LLM
   communities/*.webp   sample-community crops
 archive/daily-context/YYYY/MM/DD/*.jpg   VIIRS/MODIS daily snapshots
+baseline/<sensor>/YYYY/MM/DD/<pass_id>/   pre-archive reference passes (same layout), see below
 communities/<slug>/timeline.json         per-community time series (+ boundary.geojson)
 events/changes.json                      change events in the OSINT YYC event schema
 index.json                               every pass seen, archived or skipped (and why)
@@ -42,6 +43,25 @@ Passes are archived when ≥30 % of the AOI is covered and ≥15 % is clear; oth
 
 The **latest clear-pixel composite** (front-page hero map) is rebuilt every run and published as assets
 on the [`latest` release](../../releases/tag/latest), not committed, to keep history small.
+
+## Baseline (before 3 November 2026)
+
+Calgary sits where two Sentinel-2 orbit tracks overlap. **Relative orbit 70** (~18:50 UTC, 11:50 MST)
+sees the whole city. **Relative orbit 27** (~18:40 UTC) ends over it: its western swath edge runs
+14.5° west of due south, about 2.3 km east of the YYC terminal and 3.5 km east of the Calgary Tower,
+and has drifted no more than 1.5 km across 16 passes (Sep–Nov 2026). Change detection compares each
+pass with the previous pass on the same orbit. To start with a complete, cloud-free view, two pre-archive
+passes are kept in `baseline/` and flagged `"baseline": true` in `index.json`:
+
+- **12 Oct 2026, Sentinel-2B (18:50 track)**: whole city, west tile cloud-free
+- **14 Oct 2026, Sentinel-2C (18:40 track)**: east side, cloud-free
+
+They feed the latest-clear composite and serve as the first change-detection baseline. The dated
+archive itself still begins 3 November 2026.
+
+```bash
+python -m pipeline.run --baseline --start 2026-10-12 --end 2026-10-14 --sensors sentinel-2
+```
 
 ## Change detection → LLM annotation
 

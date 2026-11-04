@@ -19,9 +19,14 @@ ATTRIBUTION = {
 Image.MAX_IMAGE_PIXELS = None
 
 
+BASELINE = ROOT / "baseline"
+
+
 def pass_dir(meta) -> Path:
+    """Dated archive (from 3 Nov 2026) or, for pre-archive reference passes, baseline/."""
     d = meta["datetime"]
-    return ARCHIVE / meta["sensor"] / d[0:4] / d[5:7] / d[8:10] / meta["pass_id"]
+    root = BASELINE if meta.get("baseline") else ARCHIVE
+    return root / meta["sensor"] / d[0:4] / d[5:7] / d[8:10] / meta["pass_id"]
 
 
 def q8(x, lo=-1.0, hi=1.0):
@@ -136,7 +141,8 @@ def write_pass(b: dict) -> dict:
 
     year = meta["datetime"][:4]
     record = {
-        "pass_id": meta["pass_id"], "sensor": meta["sensor"], "family": meta["family"],
+        "pass_id": meta["pass_id"], "baseline": bool(meta.get("baseline")),
+        "sensor": meta["sensor"], "family": meta["family"],
         "platform": meta["platform"], "datetime": meta["datetime"], "relative_orbit": meta["orbit"],
         "source_items": [{"id": i.id, "collection": i.collection_id,
                           "self": i.get_self_href() and i.get_self_href().split("?")[0],
