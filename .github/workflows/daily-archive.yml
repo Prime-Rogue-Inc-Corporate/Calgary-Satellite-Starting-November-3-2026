@@ -3,8 +3,8 @@ name: daily-archive
 on:
   schedule:
     # Sentinel-2/Landsat pass Calgary ~18:20–18:50 UTC; catalogue ingestion lags a few hours.
-    - cron: "47 23 * * *"
-    - cron: "23 7 * * *"
+    - cron: "51 23 * * *"
+    - cron: "19 7 * * *"
   workflow_dispatch:
     inputs:
       start:
