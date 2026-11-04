@@ -74,4 +74,6 @@ GitHub Actions runs it twice daily (`.github/workflows/daily-archive.yml`). Secr
 
 ## Licence
 
+Version 0.0.1 (pre-alpha), see [CHANGELOG.md](CHANGELOG.md). Powered by [Prime Rogue Inc.](https://primerogueinc.com)
+
 Code: MIT (see `LICENSE`). **Imagery and derived data are not MIT** — see [`DATA-LICENSE.md`](DATA-LICENSE.md).
