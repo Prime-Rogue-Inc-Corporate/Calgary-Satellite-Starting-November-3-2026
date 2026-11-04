@@ -1,0 +1,48 @@
+name: release
+
+# A version bump on main publishes the release: tag vX.Y.Z + GitHub Release from CHANGELOG.md.
+on:
+  push:
+    branches: [main]
+    paths: [VERSION, .github/workflows/release.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Read version
+        id: v
+        run: |
+          V=$(tr -d '[:space:]' < VERSION)
+          if [ -f package.json ]; then
+            PKG=$(node -p "require('./package.json').version")
+            [ "$V" = "$PKG" ] || { echo "::error::VERSION ($V) and package.json ($PKG) differ"; exit 1; }
+          fi
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          if git rev-parse "v$V" >/dev/null 2>&1; then echo "exists=true" >> "$GITHUB_OUTPUT"; else echo "exists=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Extract changelog section
+        if: steps.v.outputs.exists == 'false'
+        run: |
+          awk -v v="${{ steps.v.outputs.version }}" '
+            index($0, "## [" v "]") == 1 {on=1; next}
+            on && /^## \[/ {exit}
+            on && !/^\[[^]]+\]: / {print}' CHANGELOG.md > notes.md
+          test -s notes.md || echo "See CHANGELOG.md" > notes.md
+          cat notes.md
+      - name: Tag and publish release
+        if: steps.v.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V="v${{ steps.v.outputs.version }}"
+          PRE=""; case "$V" in v0.*) PRE="--prerelease";; esac
+          gh release create "$V" --target "$GITHUB_SHA" --title "$V (pre-alpha)" --notes-file notes.md $PRE --latest
+      - name: Already released
+        if: steps.v.outputs.exists == 'true'
+        run: echo "v${{ steps.v.outputs.version }} already tagged — bump VERSION to release"
