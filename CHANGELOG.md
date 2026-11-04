@@ -5,6 +5,11 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), [SemVer](https
 
 ## [Unreleased]
 
+### Added
+- `baseline/`: 12 and 14 Oct 2026 Sentinel-2 passes (one per orbit track) as the composite's starting view and first change baseline, flagged `baseline: true`
+- `--end` and `--baseline` options (CLI and workflow inputs)
+- Sentinel-2 relative orbit recorded per pass (27 = east-only track, 70 = whole city); change detection compares passes on the same orbit
+
 ## [0.0.1] — 2026-11-04 · Pre-alpha
 
 ### Added

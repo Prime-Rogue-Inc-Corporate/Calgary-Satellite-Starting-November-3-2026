@@ -117,7 +117,7 @@ def sample_pass(bundle: dict, record: dict, feats: list[dict]) -> dict:
         have = inside & (m != NODATA)
         cov = float(have.sum()) / max(1, inside.sum())
         stat = {"pass_id": record["pass_id"], "datetime": record["datetime"], "sensor": record["sensor"],
-                "coverage": round(cov, 3)}
+                "coverage": round(cov, 3), **({"baseline": True} if record.get("baseline") else {})}
         if have.any():
             usable = inside & np.isin(m, [CLEAR, WATER])
             stat["usable_fraction"] = round(float(usable.sum()) / have.sum(), 3)

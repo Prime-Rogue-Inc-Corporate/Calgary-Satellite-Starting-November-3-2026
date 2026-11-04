@@ -10,6 +10,13 @@ on:
       start:
         description: "Backfill from UTC date (YYYY-MM-DD). Blank = last 10 days."
         required: false
+      end:
+        description: "Last UTC date (YYYY-MM-DD). Blank = today."
+        required: false
+      baseline:
+        description: "Store as pre-archive baseline (dates before 2026-11-03)"
+        type: boolean
+        default: false
       sensors:
         description: "Comma list"
         default: "sentinel-2,landsat,sentinel-1"
@@ -50,6 +57,8 @@ jobs:
         run: |
           ARGS="--sensors ${{ inputs.sensors || 'sentinel-2,landsat,sentinel-1' }}"
           if [ -n "${{ inputs.start }}" ]; then ARGS="$ARGS --start ${{ inputs.start }}"; fi
+          if [ -n "${{ inputs.end }}" ]; then ARGS="$ARGS --end ${{ inputs.end }}"; fi
+          if [ "${{ inputs.baseline }}" = "true" ]; then ARGS="$ARGS --baseline"; fi
           if [ "${{ inputs.annotate }}" = "false" ]; then ARGS="$ARGS --no-annotate"; fi
           python -m pipeline.run $ARGS
 
@@ -57,7 +66,7 @@ jobs:
         run: |
           git config user.name "osintyyc-archive-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A archive boundaries communities events index.json
+          git add -A archive baseline boundaries communities events index.json
           if git diff --cached --quiet; then echo "No new data"; exit 0; fi
           N=$(python -c "import json;print(sum(p['status']=='archived' for p in json.load(open('index.json'))['passes']))")
           git commit -m "archive: $(date -u +%Y-%m-%dT%H:%MZ) — ${N} passes archived"
