@@ -1,0 +1,109 @@
+{
+ "aoi": "Calgary",
+ "bbox_lnglat": [
+  -114.32,
+  50.84,
+  -113.86,
+  51.21
+ ],
+ "passes": [
+  {
+   "pass_id": "S2C_20261103T1840",
+   "sensor": "sentinel-2",
+   "family": "sentinel-2",
+   "platform": "sentinel-2c",
+   "datetime": "2026-11-03T18:40:04.101000Z",
+   "relative_orbit": "",
+   "status": "archived",
+   "stats": {
+    "aoi_coverage": 0.328,
+    "clear_fraction": 0.9511,
+    "water_fraction": 0.0209,
+    "cloud_fraction": 0.0277,
+    "snow_fraction": 0.0002,
+    "usable_fraction": 0.972
+   },
+   "path": "archive/sentinel-2/2026/11/03/S2C_20261103T1840",
+   "files": {
+    "rgb": {
+     "full": "rgb.webp",
+     "1600": "rgb_1600.webp"
+    },
+    "falsecolor": {
+     "full": "falsecolor.webp",
+     "1600": "falsecolor_1600.webp"
+    },
+    "usable_mask": "usable.png",
+    "analysis": "analysis.tif"
+   },
+   "corners_lnglat": [
+    [
+     -114.32,
+     51.21
+    ],
+    [
+     -113.859975,
+     51.21
+    ],
+    [
+     -113.859975,
+     50.839986
+    ],
+    [
+     -114.32,
+     50.839986
+    ]
+   ],
+   "communities": {
+    "KILLARNEY/GLENGARRY": {
+     "pass_id": "S2C_20261103T1840",
+     "datetime": "2026-11-03T18:40:04.101000Z",
+     "sensor": "sentinel-2",
+     "coverage": 0.0
+    },
+    "TUSCANY": {
+     "pass_id": "S2C_20261103T1840",
+     "datetime": "2026-11-03T18:40:04.101000Z",
+     "sensor": "sentinel-2",
+     "coverage": 0.0
+    },
+    "SADDLE RIDGE": {
+     "pass_id": "S2C_20261103T1840",
+     "datetime": "2026-11-03T18:40:04.101000Z",
+     "sensor": "sentinel-2",
+     "coverage": 0.944,
+     "usable_fraction": 0.994,
+     "ndvi_mean": 0.218,
+     "ndbi_mean": 0.0795,
+     "ndwi_mean": -0.2921,
+     "files": {
+      "rgb": "communities/saddle-ridge_rgb.webp",
+      "falsecolor": "communities/saddle-ridge_falsecolor.webp"
+     }
+    },
+    "AUBURN BAY": {
+     "pass_id": "S2C_20261103T1840",
+     "datetime": "2026-11-03T18:40:04.101000Z",
+     "sensor": "sentinel-2",
+     "coverage": 1.0,
+     "usable_fraction": 1.0,
+     "ndvi_mean": 0.2687,
+     "ndbi_mean": 0.0425,
+     "ndwi_mean": -0.3475,
+     "files": {
+      "rgb": "communities/auburn-bay_rgb.webp",
+      "falsecolor": "communities/auburn-bay_falsecolor.webp"
+     }
+    },
+    "BELTLINE (FULL)": {
+     "pass_id": "S2C_20261103T1840",
+     "datetime": "2026-11-03T18:40:04.101000Z",
+     "sensor": "sentinel-2",
+     "coverage": 0.0
+    }
+   }
+  }
+ ],
+ "updated": "2026-11-04T05:30:35+00:00",
+ "archive_size_mb": 7
+}

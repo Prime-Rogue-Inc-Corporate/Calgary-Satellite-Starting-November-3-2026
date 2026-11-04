@@ -1,0 +1,13 @@
+{
+ "name": "TUSCANY",
+ "comm_code": "TUS",
+ "sector": "NORTHWEST",
+ "passes": [
+  {
+   "pass_id": "S2C_20261103T1840",
+   "datetime": "2026-11-03T18:40:04.101000Z",
+   "sensor": "sentinel-2",
+   "coverage": 0.0
+  }
+ ]
+}
