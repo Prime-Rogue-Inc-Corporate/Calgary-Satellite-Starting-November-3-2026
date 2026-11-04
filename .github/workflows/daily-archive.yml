@@ -1,0 +1,85 @@
+name: daily-archive
+
+on:
+  schedule:
+    # Sentinel-2/Landsat pass Calgary ~18:20–18:50 UTC; catalogue ingestion lags a few hours.
+    - cron: "47 23 * * *"
+    - cron: "23 7 * * *"
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "Backfill from UTC date (YYYY-MM-DD). Blank = last 10 days."
+        required: false
+      sensors:
+        description: "Comma list"
+        default: "sentinel-2,landsat,sentinel-1"
+      annotate:
+        description: "Run LLM annotation"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-archive
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      DISPATCH_TOKEN: ${{ secrets.OSINTYYC_DISPATCH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANNOTATE_MODEL: ${{ vars.ANNOTATE_MODEL }}
+        run: |
+          ARGS="--sensors ${{ inputs.sensors || 'sentinel-2,landsat,sentinel-1' }}"
+          if [ -n "${{ inputs.start }}" ]; then ARGS="$ARGS --start ${{ inputs.start }}"; fi
+          if [ "${{ inputs.annotate }}" = "false" ]; then ARGS="$ARGS --no-annotate"; fi
+          python -m pipeline.run $ARGS
+
+      - name: Commit archive
+        run: |
+          git config user.name "osintyyc-archive-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A archive boundaries communities events index.json
+          if git diff --cached --quiet; then echo "No new data"; exit 0; fi
+          N=$(python -c "import json;print(sum(p['status']=='archived' for p in json.load(open('index.json'))['passes']))")
+          git commit -m "archive: $(date -u +%Y-%m-%dT%H:%MZ) — ${N} passes archived"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+
+      - name: Publish latest composite (release asset, keeps git history small)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -d latest ] || exit 0
+          gh release view latest >/dev/null 2>&1 || gh release create latest --title "Latest clear composite" \
+            --notes "Rolling latest-clear-pixel composite over Calgary. Overwritten on every run." --latest=false
+          gh release upload latest latest/* --clobber
+
+      - name: Size guard
+        run: |
+          MB=$(python -c "import json;print(json.load(open('index.json')).get('archive_size_mb') or 0)")
+          echo "Archive size: ${MB} MB"
+          if [ "$MB" -gt 4000 ]; then echo "::warning::Archive over 4 GB — time to move to the VPS object store"; fi
+
+      - name: Trigger site rebuild
+        if: ${{ env.DISPATCH_TOKEN != '' }}
+        run: |
+          curl -sf -X POST -H "Authorization: Bearer $DISPATCH_TOKEN" -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/Prime-Rogue-Inc-Corporate/osintyyc/dispatches -d '{"event_type":"satellite-updated"}'

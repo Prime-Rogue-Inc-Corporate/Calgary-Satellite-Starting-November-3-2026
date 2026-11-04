@@ -1,0 +1,6 @@
+rasterio>=1.4
+numpy>=2.0
+pillow>=10.4
+pystac-client>=0.8
+planetary-computer>=1.0
+shapely>=2.0
