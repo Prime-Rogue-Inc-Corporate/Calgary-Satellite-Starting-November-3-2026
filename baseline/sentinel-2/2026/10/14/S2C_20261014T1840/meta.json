@@ -1,0 +1,102 @@
+{
+  "pass_id": "S2C_20261014T1840",
+  "baseline": true,
+  "sensor": "sentinel-2",
+  "family": "sentinel-2",
+  "platform": "sentinel-2c",
+  "datetime": "2026-10-14T18:40:14.580000Z",
+  "relative_orbit": 27,
+  "source_items": [
+    {
+      "id": "S2C_11UPS_20261014_0_L2A",
+      "collection": "sentinel-2-l2a",
+      "self": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_11UPS_20261014_0_L2A",
+      "cloud_cover_scene": 0.024576
+    },
+    {
+      "id": "S2C_11UQS_20261014_0_L2A",
+      "collection": "sentinel-2-l2a",
+      "self": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_11UQS_20261014_0_L2A",
+      "cloud_cover_scene": 0.015655
+    }
+  ],
+  "grid": {
+    "crs": "EPSG:3857",
+    "width": 3221,
+    "height": 4119,
+    "ground_res_m": 10,
+    "transform": [
+      15.898725443037042,
+      0.0,
+      -12726044.187487034,
+      0.0,
+      -15.898725443037042,
+      6658524.694671642
+    ],
+    "bounds_lnglat": [
+      -114.32,
+      50.839986,
+      -113.859975,
+      51.21
+    ],
+    "corners_lnglat": [
+      [
+        -114.32,
+        51.21
+      ],
+      [
+        -113.859975,
+        51.21
+      ],
+      [
+        -113.859975,
+        50.839986
+      ],
+      [
+        -114.32,
+        50.839986
+      ]
+    ]
+  },
+  "analysis_grid": {
+    "width": 1610,
+    "height": 2059,
+    "ground_res_m": 20,
+    "transform": [
+      31.797450886074085,
+      0.0,
+      -12726044.187487034,
+      0.0,
+      -31.797450886074085,
+      6658524.694671642
+    ]
+  },
+  "analysis_bands": {
+    "ndvi": "quantized uint8 1..255 over [-1,1], 0=nodata",
+    "ndbi": "quantized uint8 1..255 over [-1,1], 0=nodata",
+    "ndwi": "quantized uint8 1..255 over [-1,1], 0=nodata",
+    "mask": "0 nodata, 1 clear, 2 cloud/shadow, 3 snow, 4 water"
+  },
+  "stats": {
+    "aoi_coverage": 0.3686,
+    "clear_fraction": 0.9746,
+    "water_fraction": 0.0244,
+    "cloud_fraction": 0.001,
+    "snow_fraction": 0.0,
+    "usable_fraction": 0.999
+  },
+  "files": {
+    "rgb": {
+      "full": "rgb.webp",
+      "1600": "rgb_1600.webp"
+    },
+    "falsecolor": {
+      "full": "falsecolor.webp",
+      "1600": "falsecolor_1600.webp"
+    },
+    "usable_mask": "usable.png",
+    "analysis": "analysis.tif"
+  },
+  "path": "baseline/sentinel-2/2026/10/14/S2C_20261014T1840",
+  "attribution": "Contains modified Copernicus Sentinel data 2026"
+}
