@@ -79,7 +79,18 @@ jobs:
           [ -d latest ] || exit 0
           gh release view latest >/dev/null 2>&1 || gh release create latest --title "Latest clear composite" \
             --notes "Rolling latest-clear-pixel composite over Calgary. Overwritten on every run." --latest=false
-          for i in 1 2 3 4; do gh release upload latest latest/* --clobber && exit 0; echo "upload failed, retry $i"; sleep $((i * 10)); done; exit 1
+          # Replace assets one at a time (clobbering in bulk hits intermittent GitHub 500s)
+          fail=0
+          for f in latest/*; do
+            n=$(basename "$f"); ok=0
+            for i in 1 2 3 4; do
+              gh release delete-asset latest "$n" --yes >/dev/null 2>&1 || true
+              if gh release upload latest "$f"; then ok=1; break; fi
+              echo "retry $i: $n"; sleep $((i * 8))
+            done
+            [ $ok = 1 ] || fail=1
+          done
+          exit $fail
 
       - name: Size guard
         run: |
