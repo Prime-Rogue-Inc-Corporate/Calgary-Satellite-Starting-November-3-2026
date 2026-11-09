@@ -42,6 +42,12 @@
    "files": {
     "rgb": "communities/killarney-glengarry_rgb.webp"
    }
+  },
+  {
+   "pass_id": "S2B_20261108T1840",
+   "datetime": "2026-11-08T18:40:12.394000Z",
+   "sensor": "sentinel-2",
+   "coverage": 0.0
   }
  ]
 }

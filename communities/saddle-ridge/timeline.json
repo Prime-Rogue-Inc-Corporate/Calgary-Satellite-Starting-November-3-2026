@@ -58,6 +58,20 @@
    "files": {
     "rgb": "communities/saddle-ridge_rgb.webp"
    }
+  },
+  {
+   "pass_id": "S2B_20261108T1840",
+   "datetime": "2026-11-08T18:40:12.394000Z",
+   "sensor": "sentinel-2",
+   "coverage": 0.862,
+   "usable_fraction": 0.999,
+   "ndvi_mean": 0.1961,
+   "ndbi_mean": 0.0817,
+   "ndwi_mean": -0.26,
+   "files": {
+    "rgb": "communities/saddle-ridge_rgb.webp",
+    "falsecolor": "communities/saddle-ridge_falsecolor.webp"
+   }
   }
  ]
 }

@@ -1,0 +1,342 @@
+{
+ "current": "S2B_20261108T1840",
+ "baseline": "S2C_20261103T1840",
+ "gap_days": 5,
+ "method": "500 m cells; robust z >= 4.0 vs city-wide cell distribution; both-clear fraction >= 0.6",
+ "eligible_cells": 1591,
+ "total_cells": 5248,
+ "scene_median_delta": {
+  "ndvi": -0.0222,
+  "ndbi": 0.01,
+  "ndwi": 0.0257
+ },
+ "flagged_count": 6,
+ "flagged": [
+  {
+   "cell": [
+    62,
+    55
+   ],
+   "bbox_lnglat": [
+    -113.927243,
+    50.927298,
+    -113.920102,
+    50.931799
+   ],
+   "center_lnglat": [
+    -113.923673,
+    50.929549
+   ],
+   "score": 34.67,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.2312,
+    "ndbi": -0.1509,
+    "ndwi": -0.2803
+   },
+   "z": {
+    "ndvi": 27.43,
+    "ndbi": -18.35,
+    "ndwi": -34.67
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    59,
+    58
+   ],
+   "bbox_lnglat": [
+    -113.90582,
+    50.9408,
+    -113.898679,
+    50.945299
+   ],
+   "center_lnglat": [
+    -113.90225,
+    50.943049
+   ],
+   "score": 24.81,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.1098,
+    "ndbi": -0.122,
+    "ndwi": -0.1933
+   },
+   "z": {
+    "ndvi": 14.29,
+    "ndbi": -15.05,
+    "ndwi": -24.81
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    59,
+    59
+   ],
+   "bbox_lnglat": [
+    -113.898679,
+    50.9408,
+    -113.891538,
+    50.945299
+   ],
+   "center_lnglat": [
+    -113.895108,
+    50.943049
+   ],
+   "score": 24.68,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.0604,
+    "ndbi": -0.1513,
+    "ndwi": -0.1922
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": -18.39,
+    "ndwi": -24.68
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    58,
+    61
+   ],
+   "bbox_lnglat": [
+    -113.884397,
+    50.945299,
+    -113.877256,
+    50.949798
+   ],
+   "center_lnglat": [
+    -113.880826,
+    50.947549
+   ],
+   "score": 18.31,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.1237,
+    "ndbi": -0.0352,
+    "ndwi": -0.136
+   },
+   "z": {
+    "ndvi": 15.79,
+    "ndbi": 0.0,
+    "ndwi": -18.31
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    58,
+    60
+   ],
+   "bbox_lnglat": [
+    -113.891538,
+    50.945299,
+    -113.884397,
+    50.949798
+   ],
+   "center_lnglat": [
+    -113.887967,
+    50.947549
+   ],
+   "score": 17.11,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.1091,
+    "ndbi": -0.0274,
+    "ndwi": -0.1254
+   },
+   "z": {
+    "ndvi": 14.21,
+    "ndbi": 0.0,
+    "ndwi": -17.11
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    81,
+    34
+   ],
+   "bbox_lnglat": [
+    -114.077205,
+    50.8417,
+    -114.070064,
+    50.846209
+   ],
+   "center_lnglat": [
+    -114.073634,
+    50.843955
+   ],
+   "score": 14.66,
+   "valid_fraction": 0.968,
+   "deltas": {
+    "ndvi": 0.0334,
+    "ndbi": 0.1385,
+    "ndwi": -0.0624
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 14.66,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  }
+ ],
+ "annotations": [
+  {
+   "cell": [
+    62,
+    55
+   ],
+   "center_lnglat": [
+    -113.923673,
+    50.929549
+   ],
+   "bbox_lnglat": [
+    -113.927243,
+    50.927298,
+    -113.920102,
+    50.931799
+   ],
+   "community": "EAST SHEPARD INDUSTRIAL",
+   "panel": "changes/cell_62_55.webp",
+   "score": 34.67,
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    59,
+    58
+   ],
+   "center_lnglat": [
+    -113.90225,
+    50.943049
+   ],
+   "bbox_lnglat": [
+    -113.90582,
+    50.9408,
+    -113.898679,
+    50.945299
+   ],
+   "community": "12B",
+   "panel": "changes/cell_59_58.webp",
+   "score": 24.81,
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    59,
+    59
+   ],
+   "center_lnglat": [
+    -113.895108,
+    50.943049
+   ],
+   "bbox_lnglat": [
+    -113.898679,
+    50.9408,
+    -113.891538,
+    50.945299
+   ],
+   "community": "12B",
+   "panel": "changes/cell_59_59.webp",
+   "score": 24.68,
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    58,
+    61
+   ],
+   "center_lnglat": [
+    -113.880826,
+    50.947549
+   ],
+   "bbox_lnglat": [
+    -113.884397,
+    50.945299,
+    -113.877256,
+    50.949798
+   ],
+   "community": "12B",
+   "panel": "changes/cell_58_61.webp",
+   "score": 18.31,
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    58,
+    60
+   ],
+   "center_lnglat": [
+    -113.887967,
+    50.947549
+   ],
+   "bbox_lnglat": [
+    -113.891538,
+    50.945299,
+    -113.884397,
+    50.949798
+   ],
+   "community": "12B",
+   "panel": "changes/cell_58_60.webp",
+   "score": 17.11,
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    81,
+    34
+   ],
+   "center_lnglat": [
+    -114.073634,
+    50.843955
+   ],
+   "bbox_lnglat": [
+    -114.077205,
+    50.8417,
+    -114.070064,
+    50.846209
+   ],
+   "community": null,
+   "panel": "changes/cell_81_34.webp",
+   "score": 14.66,
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  }
+ ]
+}

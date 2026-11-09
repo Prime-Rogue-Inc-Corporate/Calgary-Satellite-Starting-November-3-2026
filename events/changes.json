@@ -1,1 +1,182 @@
-[]
+[
+ {
+  "id": "sat:S2B_20261108T1840:62-55",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -113.923673,
+    50.929549
+   ]
+  },
+  "bbox_lnglat": [
+   -113.927243,
+   50.927298,
+   -113.920102,
+   50.931799
+  ],
+  "community": "EAST SHEPARD INDUSTRIAL",
+  "datetime": "2026-11-08T18:40:12.394000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2B_20261108T1840",
+  "title": "less surface water (drainage, drying, ice cover)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/08/S2B_20261108T1840/changes/cell_62_55.webp",
+  "annotation": null,
+  "score": 34.67
+ },
+ {
+  "id": "sat:S2B_20261108T1840:59-58",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -113.90225,
+    50.943049
+   ]
+  },
+  "bbox_lnglat": [
+   -113.90582,
+   50.9408,
+   -113.898679,
+   50.945299
+  ],
+  "community": "12B",
+  "datetime": "2026-11-08T18:40:12.394000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2B_20261108T1840",
+  "title": "less surface water (drainage, drying, ice cover)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/08/S2B_20261108T1840/changes/cell_59_58.webp",
+  "annotation": null,
+  "score": 24.81
+ },
+ {
+  "id": "sat:S2B_20261108T1840:59-59",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -113.895108,
+    50.943049
+   ]
+  },
+  "bbox_lnglat": [
+   -113.898679,
+   50.9408,
+   -113.891538,
+   50.945299
+  ],
+  "community": "12B",
+  "datetime": "2026-11-08T18:40:12.394000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2B_20261108T1840",
+  "title": "less surface water (drainage, drying, ice cover)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/08/S2B_20261108T1840/changes/cell_59_59.webp",
+  "annotation": null,
+  "score": 24.68
+ },
+ {
+  "id": "sat:S2B_20261108T1840:58-61",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -113.880826,
+    50.947549
+   ]
+  },
+  "bbox_lnglat": [
+   -113.884397,
+   50.945299,
+   -113.877256,
+   50.949798
+  ],
+  "community": "12B",
+  "datetime": "2026-11-08T18:40:12.394000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2B_20261108T1840",
+  "title": "less surface water (drainage, drying, ice cover)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/08/S2B_20261108T1840/changes/cell_58_61.webp",
+  "annotation": null,
+  "score": 18.31
+ },
+ {
+  "id": "sat:S2B_20261108T1840:58-60",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -113.887967,
+    50.947549
+   ]
+  },
+  "bbox_lnglat": [
+   -113.891538,
+   50.945299,
+   -113.884397,
+   50.949798
+  ],
+  "community": "12B",
+  "datetime": "2026-11-08T18:40:12.394000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2B_20261108T1840",
+  "title": "less surface water (drainage, drying, ice cover)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/08/S2B_20261108T1840/changes/cell_58_60.webp",
+  "annotation": null,
+  "score": 17.11
+ },
+ {
+  "id": "sat:S2B_20261108T1840:81-34",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.073634,
+    50.843955
+   ]
+  },
+  "bbox_lnglat": [
+   -114.077205,
+   50.8417,
+   -114.070064,
+   50.846209
+  ],
+  "community": null,
+  "datetime": "2026-11-08T18:40:12.394000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2B_20261108T1840",
+  "title": "more built-up / bare surface (new structures, pavement, exposed soil)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/08/S2B_20261108T1840/changes/cell_81_34.webp",
+  "annotation": null,
+  "score": 14.66
+ }
+]
