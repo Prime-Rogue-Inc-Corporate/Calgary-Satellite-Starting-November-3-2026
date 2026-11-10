@@ -584,8 +584,114 @@
     "flagged": 6,
     "annotated": 6
    }
+  },
+  {
+   "pass_id": "S1C_20261110T0129_R020",
+   "sensor": "sentinel-1",
+   "family": "sentinel-1",
+   "platform": "sentinel-1c",
+   "datetime": "2026-11-10T01:29:36.902108Z",
+   "relative_orbit": 20,
+   "status": "archived",
+   "stats": {
+    "aoi_coverage": 1.0,
+    "clear_fraction": 1.0,
+    "water_fraction": 0.0,
+    "cloud_fraction": 0.0,
+    "snow_fraction": 0.0,
+    "usable_fraction": 1.0
+   },
+   "path": "archive/sentinel-1/2026/11/10/S1C_20261110T0129_R020",
+   "files": {
+    "rgb": {
+     "full": "rgb.webp",
+     "1600": "rgb_1600.webp"
+    },
+    "usable_mask": "usable.png",
+    "analysis": "analysis.tif"
+   },
+   "corners_lnglat": [
+    [
+     -114.32,
+     51.21
+    ],
+    [
+     -113.859975,
+     51.21
+    ],
+    [
+     -113.859975,
+     50.839986
+    ],
+    [
+     -114.32,
+     50.839986
+    ]
+   ],
+   "communities": {
+    "KILLARNEY/GLENGARRY": {
+     "pass_id": "S1C_20261110T0129_R020",
+     "datetime": "2026-11-10T01:29:36.902108Z",
+     "sensor": "sentinel-1",
+     "coverage": 1.0,
+     "usable_fraction": 1.0,
+     "vv_db_mean": -6.6855,
+     "vh_db_mean": -14.3571,
+     "files": {
+      "rgb": "communities/killarney-glengarry_rgb.webp"
+     }
+    },
+    "TUSCANY": {
+     "pass_id": "S1C_20261110T0129_R020",
+     "datetime": "2026-11-10T01:29:36.902108Z",
+     "sensor": "sentinel-1",
+     "coverage": 1.0,
+     "usable_fraction": 1.0,
+     "vv_db_mean": -9.5123,
+     "vh_db_mean": -16.0623,
+     "files": {
+      "rgb": "communities/tuscany_rgb.webp"
+     }
+    },
+    "SADDLE RIDGE": {
+     "pass_id": "S1C_20261110T0129_R020",
+     "datetime": "2026-11-10T01:29:36.902108Z",
+     "sensor": "sentinel-1",
+     "coverage": 1.0,
+     "usable_fraction": 1.0,
+     "vv_db_mean": -9.2541,
+     "vh_db_mean": -17.0916,
+     "files": {
+      "rgb": "communities/saddle-ridge_rgb.webp"
+     }
+    },
+    "AUBURN BAY": {
+     "pass_id": "S1C_20261110T0129_R020",
+     "datetime": "2026-11-10T01:29:36.902108Z",
+     "sensor": "sentinel-1",
+     "coverage": 1.0,
+     "usable_fraction": 1.0,
+     "vv_db_mean": -9.1889,
+     "vh_db_mean": -16.0043,
+     "files": {
+      "rgb": "communities/auburn-bay_rgb.webp"
+     }
+    },
+    "BELTLINE (FULL)": {
+     "pass_id": "S1C_20261110T0129_R020",
+     "datetime": "2026-11-10T01:29:36.902108Z",
+     "sensor": "sentinel-1",
+     "coverage": 1.0,
+     "usable_fraction": 1.0,
+     "vv_db_mean": -3.7461,
+     "vh_db_mean": -11.5918,
+     "files": {
+      "rgb": "communities/beltline-full_rgb.webp"
+     }
+    }
+   }
   }
  ],
- "updated": "2026-11-10T04:49:15+00:00",
- "archive_size_mb": 31
+ "updated": "2026-11-10T15:40:21+00:00",
+ "archive_size_mb": 45
 }

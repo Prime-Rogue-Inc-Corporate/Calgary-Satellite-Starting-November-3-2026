@@ -48,6 +48,18 @@
    "datetime": "2026-11-08T18:40:12.394000Z",
    "sensor": "sentinel-2",
    "coverage": 0.0
+  },
+  {
+   "pass_id": "S1C_20261110T0129_R020",
+   "datetime": "2026-11-10T01:29:36.902108Z",
+   "sensor": "sentinel-1",
+   "coverage": 1.0,
+   "usable_fraction": 1.0,
+   "vv_db_mean": -9.5123,
+   "vh_db_mean": -16.0623,
+   "files": {
+    "rgb": "communities/tuscany_rgb.webp"
+   }
   }
  ]
 }

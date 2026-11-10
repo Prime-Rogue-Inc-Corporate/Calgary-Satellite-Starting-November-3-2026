@@ -37,5 +37,18 @@
    52.4
   ],
   "attribution": "NASA EOSDIS GIBS / Worldview"
+ },
+ {
+  "date": "2026-11-09",
+  "layer": "viirs-noaa21",
+  "gibs_layer": "VIIRS_NOAA21_CorrectedReflectance_TrueColor",
+  "path": "archive/daily-context/2026/11/09/viirs-noaa21.jpg",
+  "bounds_lnglat": [
+   -116.5,
+   49.8,
+   -111.5,
+   52.4
+  ],
+  "attribution": "NASA EOSDIS GIBS / Worldview"
  }
 ]

@@ -1,0 +1,91 @@
+{
+  "pass_id": "S1C_20261110T0129_R020",
+  "baseline": false,
+  "sensor": "sentinel-1",
+  "family": "sentinel-1",
+  "platform": "sentinel-1c",
+  "datetime": "2026-11-10T01:29:36.902108Z",
+  "relative_orbit": 20,
+  "source_items": [
+    {
+      "id": "S1C_IW_GRDH_1SDV_20261110T012924_20261110T012949_010268_014818_rtc",
+      "collection": "sentinel-1-rtc",
+      "self": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-1-rtc/items/S1C_IW_GRDH_1SDV_20261110T012924_20261110T012949_010268_014818_rtc",
+      "cloud_cover_scene": null
+    }
+  ],
+  "grid": {
+    "crs": "EPSG:3857",
+    "width": 3221,
+    "height": 4119,
+    "ground_res_m": 10,
+    "transform": [
+      15.898725443037042,
+      0.0,
+      -12726044.187487034,
+      0.0,
+      -15.898725443037042,
+      6658524.694671642
+    ],
+    "bounds_lnglat": [
+      -114.32,
+      50.839986,
+      -113.859975,
+      51.21
+    ],
+    "corners_lnglat": [
+      [
+        -114.32,
+        51.21
+      ],
+      [
+        -113.859975,
+        51.21
+      ],
+      [
+        -113.859975,
+        50.839986
+      ],
+      [
+        -114.32,
+        50.839986
+      ]
+    ]
+  },
+  "analysis_grid": {
+    "width": 1610,
+    "height": 2059,
+    "ground_res_m": 20,
+    "transform": [
+      31.797450886074085,
+      0.0,
+      -12726044.187487034,
+      0.0,
+      -31.797450886074085,
+      6658524.694671642
+    ]
+  },
+  "analysis_bands": {
+    "vv_db": "dB quantized uint8 1..255 over [-35,10], 0=nodata",
+    "vh_db": "dB quantized uint8 1..255 over [-35,10], 0=nodata",
+    "mask": "0 nodata, 1 clear, 2 cloud/shadow, 3 snow, 4 water"
+  },
+  "stats": {
+    "aoi_coverage": 1.0,
+    "clear_fraction": 1.0,
+    "water_fraction": 0.0,
+    "cloud_fraction": 0.0,
+    "snow_fraction": 0.0,
+    "usable_fraction": 1.0
+  },
+  "files": {
+    "rgb": {
+      "full": "rgb.webp",
+      "1600": "rgb_1600.webp"
+    },
+    "usable_mask": "usable.png",
+    "analysis": "analysis.tif"
+  },
+  "path": "archive/sentinel-1/2026/11/10/S1C_20261110T0129_R020",
+  "attribution": "Contains modified Copernicus Sentinel data 2026"
+}
