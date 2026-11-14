@@ -1,0 +1,108 @@
+{
+  "pass_id": "L9_20261108T1829",
+  "baseline": false,
+  "sensor": "landsat",
+  "family": "landsat",
+  "platform": "landsat-9",
+  "datetime": "2026-11-08T18:29:52.671302Z",
+  "relative_orbit": "",
+  "source_items": [
+    {
+      "id": "LC09_L2SP_042025_20261108_02_T1",
+      "collection": "landsat-c2-l2",
+      "self": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_042025_20261108_02_T1",
+      "cloud_cover_scene": 61.11
+    },
+    {
+      "id": "LC09_L2SP_042024_20261108_02_T1",
+      "collection": "landsat-c2-l2",
+      "self": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_042024_20261108_02_T1",
+      "cloud_cover_scene": 7.65
+    }
+  ],
+  "grid": {
+    "crs": "EPSG:3857",
+    "width": 1074,
+    "height": 1373,
+    "ground_res_m": 30,
+    "transform": [
+      47.696176329111125,
+      0.0,
+      -12726044.187487034,
+      0.0,
+      -47.696176329111125,
+      6658524.694671642
+    ],
+    "bounds_lnglat": [
+      -114.32,
+      50.839986,
+      -113.859832,
+      51.21
+    ],
+    "corners_lnglat": [
+      [
+        -114.32,
+        51.21
+      ],
+      [
+        -113.859832,
+        51.21
+      ],
+      [
+        -113.859832,
+        50.839986
+      ],
+      [
+        -114.32,
+        50.839986
+      ]
+    ]
+  },
+  "analysis_grid": {
+    "width": 1074,
+    "height": 1373,
+    "ground_res_m": 30,
+    "transform": [
+      47.696176329111125,
+      0.0,
+      -12726044.187487034,
+      0.0,
+      -47.696176329111125,
+      6658524.694671642
+    ]
+  },
+  "analysis_bands": {
+    "ndvi": "quantized uint8 1..255 over [-1,1], 0=nodata",
+    "ndbi": "quantized uint8 1..255 over [-1,1], 0=nodata",
+    "ndwi": "quantized uint8 1..255 over [-1,1], 0=nodata",
+    "mask": "0 nodata, 1 clear, 2 cloud/shadow, 3 snow, 4 water"
+  },
+  "stats": {
+    "aoi_coverage": 0.9976,
+    "clear_fraction": 0.9264,
+    "water_fraction": 0.0218,
+    "cloud_fraction": 0.0515,
+    "snow_fraction": 0.0003,
+    "usable_fraction": 0.9482,
+    "surface_temp_c": {
+      "p10": 10.43,
+      "median": 12.27,
+      "p90": 13.78
+    }
+  },
+  "files": {
+    "rgb": {
+      "full": "rgb.webp"
+    },
+    "falsecolor": {
+      "full": "falsecolor.webp"
+    },
+    "thermal": {
+      "full": "thermal.webp"
+    },
+    "usable_mask": "usable.png",
+    "analysis": "analysis.tif"
+  },
+  "path": "archive/landsat/2026/11/08/L9_20261108T1829",
+  "attribution": "Landsat imagery courtesy of the U.S. Geological Survey"
+}

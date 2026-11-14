@@ -484,6 +484,142 @@
    ]
   },
   {
+   "pass_id": "L9_20261108T1829",
+   "sensor": "landsat",
+   "family": "landsat",
+   "platform": "landsat-9",
+   "datetime": "2026-11-08T18:29:52.671302Z",
+   "relative_orbit": "",
+   "status": "archived",
+   "stats": {
+    "aoi_coverage": 0.9976,
+    "clear_fraction": 0.9264,
+    "water_fraction": 0.0218,
+    "cloud_fraction": 0.0515,
+    "snow_fraction": 0.0003,
+    "usable_fraction": 0.9482,
+    "surface_temp_c": {
+     "p10": 10.43,
+     "median": 12.27,
+     "p90": 13.78
+    }
+   },
+   "path": "archive/landsat/2026/11/08/L9_20261108T1829",
+   "files": {
+    "rgb": {
+     "full": "rgb.webp"
+    },
+    "falsecolor": {
+     "full": "falsecolor.webp"
+    },
+    "thermal": {
+     "full": "thermal.webp"
+    },
+    "usable_mask": "usable.png",
+    "analysis": "analysis.tif"
+   },
+   "corners_lnglat": [
+    [
+     -114.32,
+     51.21
+    ],
+    [
+     -113.859832,
+     51.21
+    ],
+    [
+     -113.859832,
+     50.839986
+    ],
+    [
+     -114.32,
+     50.839986
+    ]
+   ],
+   "communities": {
+    "KILLARNEY/GLENGARRY": {
+     "pass_id": "L9_20261108T1829",
+     "datetime": "2026-11-08T18:29:52.671302Z",
+     "sensor": "landsat",
+     "coverage": 1.0,
+     "usable_fraction": 1.0,
+     "ndvi_mean": 0.2694,
+     "ndbi_mean": -0.023,
+     "ndwi_mean": -0.3235,
+     "surface_temp_c_median": 12.41,
+     "files": {
+      "rgb": "communities/killarney-glengarry_rgb.webp",
+      "falsecolor": "communities/killarney-glengarry_falsecolor.webp",
+      "thermal": "communities/killarney-glengarry_thermal.webp"
+     }
+    },
+    "TUSCANY": {
+     "pass_id": "L9_20261108T1829",
+     "datetime": "2026-11-08T18:29:52.671302Z",
+     "sensor": "landsat",
+     "coverage": 1.0,
+     "usable_fraction": 0.905,
+     "ndvi_mean": 0.3231,
+     "ndbi_mean": 0.0118,
+     "ndwi_mean": -0.3987,
+     "surface_temp_c_median": 11.28,
+     "files": {
+      "rgb": "communities/tuscany_rgb.webp",
+      "falsecolor": "communities/tuscany_falsecolor.webp",
+      "thermal": "communities/tuscany_thermal.webp"
+     }
+    },
+    "SADDLE RIDGE": {
+     "pass_id": "L9_20261108T1829",
+     "datetime": "2026-11-08T18:29:52.671302Z",
+     "sensor": "landsat",
+     "coverage": 1.0,
+     "usable_fraction": 0.976,
+     "ndvi_mean": 0.2358,
+     "ndbi_mean": 0.0405,
+     "ndwi_mean": -0.3112,
+     "surface_temp_c_median": 12.32,
+     "files": {
+      "rgb": "communities/saddle-ridge_rgb.webp",
+      "falsecolor": "communities/saddle-ridge_falsecolor.webp",
+      "thermal": "communities/saddle-ridge_thermal.webp"
+     }
+    },
+    "AUBURN BAY": {
+     "pass_id": "L9_20261108T1829",
+     "datetime": "2026-11-08T18:29:52.671302Z",
+     "sensor": "landsat",
+     "coverage": 1.0,
+     "usable_fraction": 1.0,
+     "ndvi_mean": 0.2855,
+     "ndbi_mean": 0.0101,
+     "ndwi_mean": -0.3615,
+     "surface_temp_c_median": 13.74,
+     "files": {
+      "rgb": "communities/auburn-bay_rgb.webp",
+      "falsecolor": "communities/auburn-bay_falsecolor.webp",
+      "thermal": "communities/auburn-bay_thermal.webp"
+     }
+    },
+    "BELTLINE (FULL)": {
+     "pass_id": "L9_20261108T1829",
+     "datetime": "2026-11-08T18:29:52.671302Z",
+     "sensor": "landsat",
+     "coverage": 1.0,
+     "usable_fraction": 0.962,
+     "ndvi_mean": 0.1177,
+     "ndbi_mean": 0.0536,
+     "ndwi_mean": -0.1673,
+     "surface_temp_c_median": 11.95,
+     "files": {
+      "rgb": "communities/beltline-full_rgb.webp",
+      "falsecolor": "communities/beltline-full_falsecolor.webp",
+      "thermal": "communities/beltline-full_thermal.webp"
+     }
+    }
+   }
+  },
+  {
    "pass_id": "S2B_20261108T1840",
    "sensor": "sentinel-2",
    "family": "sentinel-2",
@@ -738,6 +874,6 @@
    ]
   }
  ],
- "updated": "2026-11-14T03:38:17+00:00",
- "archive_size_mb": 47
+ "updated": "2026-11-14T14:17:32+00:00",
+ "archive_size_mb": 52
 }

@@ -60,6 +60,22 @@
    }
   },
   {
+   "pass_id": "L9_20261108T1829",
+   "datetime": "2026-11-08T18:29:52.671302Z",
+   "sensor": "landsat",
+   "coverage": 1.0,
+   "usable_fraction": 1.0,
+   "ndvi_mean": 0.2855,
+   "ndbi_mean": 0.0101,
+   "ndwi_mean": -0.3615,
+   "surface_temp_c_median": 13.74,
+   "files": {
+    "rgb": "communities/auburn-bay_rgb.webp",
+    "falsecolor": "communities/auburn-bay_falsecolor.webp",
+    "thermal": "communities/auburn-bay_thermal.webp"
+   }
+  },
+  {
    "pass_id": "S2B_20261108T1840",
    "datetime": "2026-11-08T18:40:12.394000Z",
    "sensor": "sentinel-2",

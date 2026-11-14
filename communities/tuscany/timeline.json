@@ -44,6 +44,22 @@
    }
   },
   {
+   "pass_id": "L9_20261108T1829",
+   "datetime": "2026-11-08T18:29:52.671302Z",
+   "sensor": "landsat",
+   "coverage": 1.0,
+   "usable_fraction": 0.905,
+   "ndvi_mean": 0.3231,
+   "ndbi_mean": 0.0118,
+   "ndwi_mean": -0.3987,
+   "surface_temp_c_median": 11.28,
+   "files": {
+    "rgb": "communities/tuscany_rgb.webp",
+    "falsecolor": "communities/tuscany_falsecolor.webp",
+    "thermal": "communities/tuscany_thermal.webp"
+   }
+  },
+  {
    "pass_id": "S2B_20261108T1840",
    "datetime": "2026-11-08T18:40:12.394000Z",
    "sensor": "sentinel-2",

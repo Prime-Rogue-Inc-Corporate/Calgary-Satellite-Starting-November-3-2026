@@ -60,6 +60,22 @@
    }
   },
   {
+   "pass_id": "L9_20261108T1829",
+   "datetime": "2026-11-08T18:29:52.671302Z",
+   "sensor": "landsat",
+   "coverage": 1.0,
+   "usable_fraction": 0.976,
+   "ndvi_mean": 0.2358,
+   "ndbi_mean": 0.0405,
+   "ndwi_mean": -0.3112,
+   "surface_temp_c_median": 12.32,
+   "files": {
+    "rgb": "communities/saddle-ridge_rgb.webp",
+    "falsecolor": "communities/saddle-ridge_falsecolor.webp",
+    "thermal": "communities/saddle-ridge_thermal.webp"
+   }
+  },
+  {
    "pass_id": "S2B_20261108T1840",
    "datetime": "2026-11-08T18:40:12.394000Z",
    "sensor": "sentinel-2",
