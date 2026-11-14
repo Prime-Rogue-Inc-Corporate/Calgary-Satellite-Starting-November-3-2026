@@ -1,0 +1,54 @@
+[
+ {
+  "date": "2026-11-13",
+  "layer": "viirs-noaa20",
+  "gibs_layer": "VIIRS_NOAA20_CorrectedReflectance_TrueColor",
+  "path": "archive/daily-context/2026/11/13/viirs-noaa20.jpg",
+  "bounds_lnglat": [
+   -116.5,
+   49.8,
+   -111.5,
+   52.4
+  ],
+  "attribution": "NASA EOSDIS GIBS / Worldview"
+ },
+ {
+  "date": "2026-11-13",
+  "layer": "viirs-noaa21",
+  "gibs_layer": "VIIRS_NOAA21_CorrectedReflectance_TrueColor",
+  "path": "archive/daily-context/2026/11/13/viirs-noaa21.jpg",
+  "bounds_lnglat": [
+   -116.5,
+   49.8,
+   -111.5,
+   52.4
+  ],
+  "attribution": "NASA EOSDIS GIBS / Worldview"
+ },
+ {
+  "date": "2026-11-13",
+  "layer": "modis-terra",
+  "gibs_layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+  "path": "archive/daily-context/2026/11/13/modis-terra.jpg",
+  "bounds_lnglat": [
+   -116.5,
+   49.8,
+   -111.5,
+   52.4
+  ],
+  "attribution": "NASA EOSDIS GIBS / Worldview"
+ },
+ {
+  "date": "2026-11-13",
+  "layer": "modis-aqua",
+  "gibs_layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+  "path": "archive/daily-context/2026/11/13/modis-aqua.jpg",
+  "bounds_lnglat": [
+   -116.5,
+   49.8,
+   -111.5,
+   52.4
+  ],
+  "attribution": "NASA EOSDIS GIBS / Worldview"
+ }
+]
