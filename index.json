@@ -872,8 +872,29 @@
     "S2C_11UQS_20261113_0_L2A",
     "S2C_12UUB_20261113_0_L2A"
    ]
+  },
+  {
+   "pass_id": "L9_20261115T1836",
+   "sensor": "landsat",
+   "family": "landsat",
+   "platform": "landsat-9",
+   "datetime": "2026-11-15T18:36:03.709282Z",
+   "relative_orbit": "",
+   "status": "skipped",
+   "reason": "coverage/cloud",
+   "stats": {
+    "aoi_coverage": 0.0291,
+    "clear_fraction": 0.0,
+    "water_fraction": 0.0,
+    "cloud_fraction": 1.0,
+    "snow_fraction": 0.0,
+    "usable_fraction": 0.0
+   },
+   "source_items": [
+    "LC09_L2SP_043024_20261115_02_T1"
+   ]
   }
  ],
- "updated": "2026-11-16T03:14:30+00:00",
+ "updated": "2026-11-16T17:09:39+00:00",
  "archive_size_mb": 54
 }
