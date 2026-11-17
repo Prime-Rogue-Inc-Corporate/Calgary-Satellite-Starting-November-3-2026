@@ -76,6 +76,20 @@
    "files": {
     "rgb": "communities/tuscany_rgb.webp"
    }
+  },
+  {
+   "pass_id": "S2C_20261116T1850",
+   "datetime": "2026-11-16T18:50:06.900000Z",
+   "sensor": "sentinel-2",
+   "coverage": 1.0,
+   "usable_fraction": 1.0,
+   "ndvi_mean": 0.2956,
+   "ndbi_mean": 0.0707,
+   "ndwi_mean": -0.4185,
+   "files": {
+    "rgb": "communities/tuscany_rgb.webp",
+    "falsecolor": "communities/tuscany_falsecolor.webp"
+   }
   }
  ]
 }

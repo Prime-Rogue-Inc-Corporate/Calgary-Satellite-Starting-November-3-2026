@@ -76,6 +76,20 @@
    "files": {
     "rgb": "communities/beltline-full_rgb.webp"
    }
+  },
+  {
+   "pass_id": "S2C_20261116T1850",
+   "datetime": "2026-11-16T18:50:06.900000Z",
+   "sensor": "sentinel-2",
+   "coverage": 1.0,
+   "usable_fraction": 1.0,
+   "ndvi_mean": 0.1076,
+   "ndbi_mean": 0.1191,
+   "ndwi_mean": -0.1916,
+   "files": {
+    "rgb": "communities/beltline-full_rgb.webp",
+    "falsecolor": "communities/beltline-full_falsecolor.webp"
+   }
   }
  ]
 }

@@ -1,0 +1,2010 @@
+{
+ "current": "S2C_20261116T1850",
+ "baseline": "S2B_20261012T1850",
+ "gap_days": 34,
+ "method": "500 m cells; robust z >= 4.0 vs city-wide cell distribution; both-clear fraction >= 0.6",
+ "eligible_cells": 4960,
+ "total_cells": 5248,
+ "scene_median_delta": {
+  "ndvi": -0.072,
+  "ndbi": 0.0907,
+  "ndwi": 0.0402
+ },
+ "flagged_count": 226,
+ "flagged": [
+  {
+   "cell": [
+    81,
+    7
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.8417,
+    -114.262872,
+    50.846209
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.843955
+   ],
+   "score": 10.43,
+   "valid_fraction": 0.827,
+   "deltas": {
+    "ndvi": 0.1138,
+    "ndbi": 0.7151,
+    "ndwi": -0.2419
+   },
+   "z": {
+    "ndvi": 3.89,
+    "ndbi": 10.43,
+    "ndwi": -7.55
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    80,
+    7
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.846209,
+    -114.262872,
+    50.850718
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.848464
+   ],
+   "score": 9.59,
+   "valid_fraction": 0.65,
+   "deltas": {
+    "ndvi": 0.1204,
+    "ndbi": 0.665,
+    "ndwi": -0.2364
+   },
+   "z": {
+    "ndvi": 4.03,
+    "ndbi": 9.59,
+    "ndwi": -7.41
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    81,
+    8
+   ],
+   "bbox_lnglat": [
+    -114.262872,
+    50.8417,
+    -114.255731,
+    50.846209
+   ],
+   "center_lnglat": [
+    -114.259301,
+    50.843955
+   ],
+   "score": 9.01,
+   "valid_fraction": 0.974,
+   "deltas": {
+    "ndvi": 0.0299,
+    "ndbi": 0.6302,
+    "ndwi": -0.1565
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 9.01,
+    "ndwi": -5.27
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    76,
+    6
+   ],
+   "bbox_lnglat": [
+    -114.277154,
+    50.864241,
+    -114.270013,
+    50.868748
+   ],
+   "center_lnglat": [
+    -114.273583,
+    50.866495
+   ],
+   "score": 8.99,
+   "valid_fraction": 0.829,
+   "deltas": {
+    "ndvi": 0.1462,
+    "ndbi": 0.6291,
+    "ndwi": -0.2687
+   },
+   "z": {
+    "ndvi": 4.57,
+    "ndbi": 8.99,
+    "ndwi": -8.27
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    80,
+    8
+   ],
+   "bbox_lnglat": [
+    -114.262872,
+    50.846209,
+    -114.255731,
+    50.850718
+   ],
+   "center_lnglat": [
+    -114.259301,
+    50.848464
+   ],
+   "score": 8.7,
+   "valid_fraction": 0.93,
+   "deltas": {
+    "ndvi": 0.0503,
+    "ndbi": 0.6116,
+    "ndwi": -0.1556
+   },
+   "z": {
+    "ndvi": 2.56,
+    "ndbi": 8.7,
+    "ndwi": -5.24
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    75,
+    6
+   ],
+   "bbox_lnglat": [
+    -114.277154,
+    50.868748,
+    -114.270013,
+    50.873255
+   ],
+   "center_lnglat": [
+    -114.273583,
+    50.871001
+   ],
+   "score": 8.47,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.1594,
+    "ndbi": 0.5779,
+    "ndwi": -0.276
+   },
+   "z": {
+    "ndvi": 4.85,
+    "ndbi": 8.14,
+    "ndwi": -8.47
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    71,
+    24
+   ],
+   "bbox_lnglat": [
+    -114.148615,
+    50.886771,
+    -114.141474,
+    50.891276
+   ],
+   "center_lnglat": [
+    -114.145045,
+    50.889024
+   ],
+   "score": 8.34,
+   "valid_fraction": 0.942,
+   "deltas": {
+    "ndvi": -0.0105,
+    "ndbi": 0.5897,
+    "ndwi": -0.0632
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 8.34,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    81,
+    14
+   ],
+   "bbox_lnglat": [
+    -114.220026,
+    50.8417,
+    -114.212884,
+    50.846209
+   ],
+   "center_lnglat": [
+    -114.216455,
+    50.843955
+   ],
+   "score": 8.32,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": -0.0571,
+    "ndbi": 0.5886,
+    "ndwi": -0.085
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 8.32,
+    "ndwi": -3.35
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    3,
+    52
+   ],
+   "bbox_lnglat": [
+    -113.948666,
+    51.192102,
+    -113.941525,
+    51.196577
+   ],
+   "center_lnglat": [
+    -113.945096,
+    51.19434
+   ],
+   "score": 8.08,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.1609,
+    "ndbi": -0.0596,
+    "ndwi": -0.2616
+   },
+   "z": {
+    "ndvi": 4.88,
+    "ndbi": -2.51,
+    "ndwi": -8.08
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    81,
+    9
+   ],
+   "bbox_lnglat": [
+    -114.255731,
+    50.8417,
+    -114.24859,
+    50.846209
+   ],
+   "center_lnglat": [
+    -114.25216,
+    50.843955
+   ],
+   "score": 8.05,
+   "valid_fraction": 0.955,
+   "deltas": {
+    "ndvi": -0.0092,
+    "ndbi": 0.5728,
+    "ndwi": -0.1102
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 8.05,
+    "ndwi": -4.03
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    75,
+    7
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.868748,
+    -114.262872,
+    50.873255
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.871001
+   ],
+   "score": 7.94,
+   "valid_fraction": 0.8,
+   "deltas": {
+    "ndvi": 0.0367,
+    "ndbi": 0.5657,
+    "ndwi": -0.1405
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 7.94,
+    "ndwi": -4.84
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    76,
+    8
+   ],
+   "bbox_lnglat": [
+    -114.262872,
+    50.864241,
+    -114.255731,
+    50.868748
+   ],
+   "center_lnglat": [
+    -114.259301,
+    50.866495
+   ],
+   "score": 7.84,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.0518,
+    "ndbi": 0.5598,
+    "ndwi": -0.1619
+   },
+   "z": {
+    "ndvi": 2.59,
+    "ndbi": 7.84,
+    "ndwi": -5.41
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    81,
+    6
+   ],
+   "bbox_lnglat": [
+    -114.277154,
+    50.8417,
+    -114.270013,
+    50.846209
+   ],
+   "center_lnglat": [
+    -114.273583,
+    50.843955
+   ],
+   "score": 7.77,
+   "valid_fraction": 0.989,
+   "deltas": {
+    "ndvi": 0.0823,
+    "ndbi": 0.556,
+    "ndwi": -0.1854
+   },
+   "z": {
+    "ndvi": 3.23,
+    "ndbi": 7.77,
+    "ndwi": -6.04
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    77,
+    6
+   ],
+   "bbox_lnglat": [
+    -114.277154,
+    50.859734,
+    -114.270013,
+    50.864241
+   ],
+   "center_lnglat": [
+    -114.273583,
+    50.861988
+   ],
+   "score": 7.69,
+   "valid_fraction": 0.933,
+   "deltas": {
+    "ndvi": 0.0928,
+    "ndbi": 0.5513,
+    "ndwi": -0.2064
+   },
+   "z": {
+    "ndvi": 3.45,
+    "ndbi": 7.69,
+    "ndwi": -6.6
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    75,
+    9
+   ],
+   "bbox_lnglat": [
+    -114.255731,
+    50.868748,
+    -114.24859,
+    50.873255
+   ],
+   "center_lnglat": [
+    -114.25216,
+    50.871001
+   ],
+   "score": 7.58,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.0425,
+    "ndbi": 0.5447,
+    "ndwi": -0.1512
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 7.58,
+    "ndwi": -5.12
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    68,
+    18
+   ],
+   "bbox_lnglat": [
+    -114.191461,
+    50.900284,
+    -114.18432,
+    50.904788
+   ],
+   "center_lnglat": [
+    -114.187891,
+    50.902536
+   ],
+   "score": 7.49,
+   "valid_fraction": 0.901,
+   "deltas": {
+    "ndvi": -0.0881,
+    "ndbi": 0.5392,
+    "ndwi": 0.0216
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 7.49,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    75,
+    8
+   ],
+   "bbox_lnglat": [
+    -114.262872,
+    50.868748,
+    -114.255731,
+    50.873255
+   ],
+   "center_lnglat": [
+    -114.259301,
+    50.871001
+   ],
+   "score": 7.46,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.0568,
+    "ndbi": 0.5373,
+    "ndwi": -0.155
+   },
+   "z": {
+    "ndvi": 2.7,
+    "ndbi": 7.46,
+    "ndwi": -5.23
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    79,
+    8
+   ],
+   "bbox_lnglat": [
+    -114.262872,
+    50.850718,
+    -114.255731,
+    50.855226
+   ],
+   "center_lnglat": [
+    -114.259301,
+    50.852972
+   ],
+   "score": 7.39,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.144,
+    "ndbi": 0.5312,
+    "ndwi": -0.2357
+   },
+   "z": {
+    "ndvi": 4.52,
+    "ndbi": 7.36,
+    "ndwi": -7.39
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    77,
+    21
+   ],
+   "bbox_lnglat": [
+    -114.170038,
+    50.859734,
+    -114.162897,
+    50.864241
+   ],
+   "center_lnglat": [
+    -114.166468,
+    50.861988
+   ],
+   "score": 7.24,
+   "valid_fraction": 0.782,
+   "deltas": {
+    "ndvi": 0.0226,
+    "ndbi": 0.5242,
+    "ndwi": -0.1182
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 7.24,
+    "ndwi": -4.24
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    80,
+    6
+   ],
+   "bbox_lnglat": [
+    -114.277154,
+    50.846209,
+    -114.270013,
+    50.850718
+   ],
+   "center_lnglat": [
+    -114.273583,
+    50.848464
+   ],
+   "score": 7.22,
+   "valid_fraction": 0.986,
+   "deltas": {
+    "ndvi": 0.0238,
+    "ndbi": 0.523,
+    "ndwi": -0.1295
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 7.22,
+    "ndwi": -4.54
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    74,
+    21
+   ],
+   "bbox_lnglat": [
+    -114.170038,
+    50.873255,
+    -114.162897,
+    50.877761
+   ],
+   "center_lnglat": [
+    -114.166468,
+    50.875508
+   ],
+   "score": 7.15,
+   "valid_fraction": 0.979,
+   "deltas": {
+    "ndvi": -0.3196,
+    "ndbi": 0.1133,
+    "ndwi": 0.307
+   },
+   "z": {
+    "ndvi": -5.19,
+    "ndbi": 0.0,
+    "ndwi": 7.15
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "more surface water or wetness (ponding, flooding, new stormwater pond)"
+  },
+  {
+   "cell": [
+    76,
+    7
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.864241,
+    -114.262872,
+    50.868748
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.866495
+   ],
+   "score": 7.15,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": -0.0329,
+    "ndbi": 0.5187,
+    "ndwi": -0.0687
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 7.15,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    81,
+    15
+   ],
+   "bbox_lnglat": [
+    -114.212884,
+    50.8417,
+    -114.205743,
+    50.846209
+   ],
+   "center_lnglat": [
+    -114.209314,
+    50.843955
+   ],
+   "score": 7.15,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": -0.0744,
+    "ndbi": 0.5189,
+    "ndwi": -0.0349
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 7.15,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    76,
+    9
+   ],
+   "bbox_lnglat": [
+    -114.255731,
+    50.864241,
+    -114.24859,
+    50.868748
+   ],
+   "center_lnglat": [
+    -114.25216,
+    50.866495
+   ],
+   "score": 7.14,
+   "valid_fraction": 0.91,
+   "deltas": {
+    "ndvi": -0.0325,
+    "ndbi": 0.518,
+    "ndwi": -0.0625
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 7.14,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    78,
+    6
+   ],
+   "bbox_lnglat": [
+    -114.277154,
+    50.855226,
+    -114.270013,
+    50.859734
+   ],
+   "center_lnglat": [
+    -114.273583,
+    50.85748
+   ],
+   "score": 7.11,
+   "valid_fraction": 0.928,
+   "deltas": {
+    "ndvi": 0.0658,
+    "ndbi": 0.5164,
+    "ndwi": -0.1783
+   },
+   "z": {
+    "ndvi": 2.89,
+    "ndbi": 7.11,
+    "ndwi": -5.85
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    74,
+    7
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.873255,
+    -114.262872,
+    50.877761
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.875508
+   ],
+   "score": 7.07,
+   "valid_fraction": 0.886,
+   "deltas": {
+    "ndvi": 0.0393,
+    "ndbi": 0.5137,
+    "ndwi": -0.1496
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 7.07,
+    "ndwi": -5.08
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    3,
+    51
+   ],
+   "bbox_lnglat": [
+    -113.955807,
+    51.192102,
+    -113.948666,
+    51.196577
+   ],
+   "center_lnglat": [
+    -113.952237,
+    51.19434
+   ],
+   "score": 6.83,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.135,
+    "ndbi": 0.2616,
+    "ndwi": -0.215
+   },
+   "z": {
+    "ndvi": 4.34,
+    "ndbi": 2.86,
+    "ndwi": -6.83
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    74,
+    8
+   ],
+   "bbox_lnglat": [
+    -114.262872,
+    50.873255,
+    -114.255731,
+    50.877761
+   ],
+   "center_lnglat": [
+    -114.259301,
+    50.875508
+   ],
+   "score": 6.83,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.0731,
+    "ndbi": 0.4994,
+    "ndwi": -0.1792
+   },
+   "z": {
+    "ndvi": 3.04,
+    "ndbi": 6.83,
+    "ndwi": -5.88
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    75,
+    16
+   ],
+   "bbox_lnglat": [
+    -114.205743,
+    50.868748,
+    -114.198602,
+    50.873255
+   ],
+   "center_lnglat": [
+    -114.202173,
+    50.871001
+   ],
+   "score": 6.82,
+   "valid_fraction": 0.878,
+   "deltas": {
+    "ndvi": -0.1652,
+    "ndbi": 0.4992,
+    "ndwi": 0.004
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.82,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    78,
+    22
+   ],
+   "bbox_lnglat": [
+    -114.162897,
+    50.855226,
+    -114.155756,
+    50.859734
+   ],
+   "center_lnglat": [
+    -114.159327,
+    50.85748
+   ],
+   "score": 6.78,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": -0.0064,
+    "ndbi": 0.4968,
+    "ndwi": -0.1116
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.78,
+    "ndwi": -4.06
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    54,
+    27
+   ],
+   "bbox_lnglat": [
+    -114.127192,
+    50.963293,
+    -114.120051,
+    50.96779
+   ],
+   "center_lnglat": [
+    -114.123622,
+    50.965541
+   ],
+   "score": 6.6,
+   "valid_fraction": 0.778,
+   "deltas": {
+    "ndvi": 0.1483,
+    "ndbi": 0.3743,
+    "ndwi": -0.2062
+   },
+   "z": {
+    "ndvi": 4.62,
+    "ndbi": 4.74,
+    "ndwi": -6.6
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    53,
+    27
+   ],
+   "bbox_lnglat": [
+    -114.127192,
+    50.96779,
+    -114.120051,
+    50.972287
+   ],
+   "center_lnglat": [
+    -114.123622,
+    50.970039
+   ],
+   "score": 6.45,
+   "valid_fraction": 0.678,
+   "deltas": {
+    "ndvi": 0.1413,
+    "ndbi": 0.338,
+    "ndwi": -0.2005
+   },
+   "z": {
+    "ndvi": 4.47,
+    "ndbi": 4.13,
+    "ndwi": -6.45
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    80,
+    14
+   ],
+   "bbox_lnglat": [
+    -114.220026,
+    50.846209,
+    -114.212884,
+    50.850718
+   ],
+   "center_lnglat": [
+    -114.216455,
+    50.848464
+   ],
+   "score": 6.44,
+   "valid_fraction": 0.99,
+   "deltas": {
+    "ndvi": -0.0719,
+    "ndbi": 0.4764,
+    "ndwi": -0.044
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.44,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    59,
+    59
+   ],
+   "bbox_lnglat": [
+    -113.898679,
+    50.9408,
+    -113.891538,
+    50.945299
+   ],
+   "center_lnglat": [
+    -113.895108,
+    50.943049
+   ],
+   "score": 6.43,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.0434,
+    "ndbi": 0.1484,
+    "ndwi": -0.2001
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 0.0,
+    "ndwi": -6.43
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    75,
+    10
+   ],
+   "bbox_lnglat": [
+    -114.24859,
+    50.868748,
+    -114.241449,
+    50.873255
+   ],
+   "center_lnglat": [
+    -114.245019,
+    50.871001
+   ],
+   "score": 6.42,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": -0.0582,
+    "ndbi": 0.4748,
+    "ndwi": -0.028
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.42,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    78,
+    7
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.855226,
+    -114.262872,
+    50.859734
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.85748
+   ],
+   "score": 6.39,
+   "valid_fraction": 0.901,
+   "deltas": {
+    "ndvi": 0.0313,
+    "ndbi": 0.4729,
+    "ndwi": -0.1304
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.39,
+    "ndwi": -4.57
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    74,
+    6
+   ],
+   "bbox_lnglat": [
+    -114.277154,
+    50.873255,
+    -114.270013,
+    50.877761
+   ],
+   "center_lnglat": [
+    -114.273583,
+    50.875508
+   ],
+   "score": 6.34,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.0033,
+    "ndbi": 0.4701,
+    "ndwi": -0.1082
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.34,
+    "ndwi": -3.97
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    74,
+    22
+   ],
+   "bbox_lnglat": [
+    -114.162897,
+    50.873255,
+    -114.155756,
+    50.877761
+   ],
+   "center_lnglat": [
+    -114.159327,
+    50.875508
+   ],
+   "score": 6.32,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": -0.2093,
+    "ndbi": 0.0682,
+    "ndwi": 0.2762
+   },
+   "z": {
+    "ndvi": -2.88,
+    "ndbi": 0.0,
+    "ndwi": 6.32
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "more surface water or wetness (ponding, flooding, new stormwater pond)"
+  },
+  {
+   "cell": [
+    77,
+    7
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.859734,
+    -114.262872,
+    50.864241
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.861988
+   ],
+   "score": 6.29,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.1086,
+    "ndbi": 0.4099,
+    "ndwi": -0.1946
+   },
+   "z": {
+    "ndvi": 3.78,
+    "ndbi": 5.33,
+    "ndwi": -6.29
+   },
+   "dominant": "ndwi",
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)"
+  },
+  {
+   "cell": [
+    76,
+    10
+   ],
+   "bbox_lnglat": [
+    -114.24859,
+    50.864241,
+    -114.241449,
+    50.868748
+   ],
+   "center_lnglat": [
+    -114.245019,
+    50.866495
+   ],
+   "score": 6.27,
+   "valid_fraction": 0.89,
+   "deltas": {
+    "ndvi": -0.0252,
+    "ndbi": 0.4662,
+    "ndwi": -0.0723
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.27,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    66,
+    17
+   ],
+   "bbox_lnglat": [
+    -114.198602,
+    50.909291,
+    -114.191461,
+    50.913793
+   ],
+   "center_lnglat": [
+    -114.195032,
+    50.911542
+   ],
+   "score": 6.26,
+   "valid_fraction": 0.752,
+   "deltas": {
+    "ndvi": -0.0859,
+    "ndbi": 0.4655,
+    "ndwi": 0.06
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.26,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    74,
+    9
+   ],
+   "bbox_lnglat": [
+    -114.255731,
+    50.873255,
+    -114.24859,
+    50.877761
+   ],
+   "center_lnglat": [
+    -114.25216,
+    50.875508
+   ],
+   "score": 6.23,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.0218,
+    "ndbi": 0.4639,
+    "ndwi": -0.1222
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.23,
+    "ndwi": -4.35
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    80,
+    15
+   ],
+   "bbox_lnglat": [
+    -114.212884,
+    50.846209,
+    -114.205743,
+    50.850718
+   ],
+   "center_lnglat": [
+    -114.209314,
+    50.848464
+   ],
+   "score": 6.1,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": -0.007,
+    "ndbi": 0.4557,
+    "ndwi": -0.0925
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.1,
+    "ndwi": -3.55
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    74,
+    16
+   ],
+   "bbox_lnglat": [
+    -114.205743,
+    50.873255,
+    -114.198602,
+    50.877761
+   ],
+   "center_lnglat": [
+    -114.202173,
+    50.875508
+   ],
+   "score": 6.01,
+   "valid_fraction": 0.786,
+   "deltas": {
+    "ndvi": -0.0755,
+    "ndbi": 0.4502,
+    "ndwi": -0.0389
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.01,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    73,
+    20
+   ],
+   "bbox_lnglat": [
+    -114.177179,
+    50.877761,
+    -114.170038,
+    50.882266
+   ],
+   "center_lnglat": [
+    -114.173609,
+    50.880013
+   ],
+   "score": 6.0,
+   "valid_fraction": 0.872,
+   "deltas": {
+    "ndvi": -0.0941,
+    "ndbi": 0.4499,
+    "ndwi": 0.0556
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 6.0,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    76,
+    5
+   ],
+   "bbox_lnglat": [
+    -114.284295,
+    50.864241,
+    -114.277154,
+    50.868748
+   ],
+   "center_lnglat": [
+    -114.280724,
+    50.866495
+   ],
+   "score": 5.99,
+   "valid_fraction": 0.888,
+   "deltas": {
+    "ndvi": 0.0507,
+    "ndbi": 0.4493,
+    "ndwi": -0.1512
+   },
+   "z": {
+    "ndvi": 2.57,
+    "ndbi": 5.99,
+    "ndwi": -5.13
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    72,
+    24
+   ],
+   "bbox_lnglat": [
+    -114.148615,
+    50.882266,
+    -114.141474,
+    50.886771
+   ],
+   "center_lnglat": [
+    -114.145045,
+    50.884519
+   ],
+   "score": 5.97,
+   "valid_fraction": 0.866,
+   "deltas": {
+    "ndvi": -0.0471,
+    "ndbi": 0.448,
+    "ndwi": -0.0417
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 5.97,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    67,
+    18
+   ],
+   "bbox_lnglat": [
+    -114.191461,
+    50.904788,
+    -114.18432,
+    50.909291
+   ],
+   "center_lnglat": [
+    -114.187891,
+    50.907039
+   ],
+   "score": 5.91,
+   "valid_fraction": 0.957,
+   "deltas": {
+    "ndvi": -0.0787,
+    "ndbi": 0.4445,
+    "ndwi": 0.045
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 5.91,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    79,
+    6
+   ],
+   "bbox_lnglat": [
+    -114.277154,
+    50.850718,
+    -114.270013,
+    50.855226
+   ],
+   "center_lnglat": [
+    -114.273583,
+    50.852972
+   ],
+   "score": 5.91,
+   "valid_fraction": 0.882,
+   "deltas": {
+    "ndvi": -0.1101,
+    "ndbi": 0.4448,
+    "ndwi": -0.0053
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 5.91,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    77,
+    5
+   ],
+   "bbox_lnglat": [
+    -114.284295,
+    50.859734,
+    -114.277154,
+    50.864241
+   ],
+   "center_lnglat": [
+    -114.280724,
+    50.861988
+   ],
+   "score": 5.9,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": -0.0407,
+    "ndbi": 0.4436,
+    "ndwi": -0.0741
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 5.9,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    78,
+    8
+   ],
+   "bbox_lnglat": [
+    -114.262872,
+    50.855226,
+    -114.255731,
+    50.859734
+   ],
+   "center_lnglat": [
+    -114.259301,
+    50.85748
+   ],
+   "score": 5.9,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": 0.0607,
+    "ndbi": 0.4439,
+    "ndwi": -0.1511
+   },
+   "z": {
+    "ndvi": 2.78,
+    "ndbi": 5.9,
+    "ndwi": -5.12
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    74,
+    15
+   ],
+   "bbox_lnglat": [
+    -114.212884,
+    50.873255,
+    -114.205743,
+    50.877761
+   ],
+   "center_lnglat": [
+    -114.209314,
+    50.875508
+   ],
+   "score": 5.86,
+   "valid_fraction": 0.936,
+   "deltas": {
+    "ndvi": -0.0842,
+    "ndbi": 0.4413,
+    "ndwi": -0.0212
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 5.86,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    70,
+    20
+   ],
+   "bbox_lnglat": [
+    -114.177179,
+    50.891276,
+    -114.170038,
+    50.89578
+   ],
+   "center_lnglat": [
+    -114.173609,
+    50.893528
+   ],
+   "score": 5.79,
+   "valid_fraction": 0.645,
+   "deltas": {
+    "ndvi": -0.015,
+    "ndbi": 0.4374,
+    "ndwi": -0.0561
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 5.79,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    73,
+    21
+   ],
+   "bbox_lnglat": [
+    -114.170038,
+    50.877761,
+    -114.162897,
+    50.882266
+   ],
+   "center_lnglat": [
+    -114.166468,
+    50.880013
+   ],
+   "score": 5.79,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": -0.0489,
+    "ndbi": 0.4375,
+    "ndwi": 0.0097
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 5.79,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    77,
+    22
+   ],
+   "bbox_lnglat": [
+    -114.162897,
+    50.859734,
+    -114.155756,
+    50.864241
+   ],
+   "center_lnglat": [
+    -114.159327,
+    50.861988
+   ],
+   "score": 5.78,
+   "valid_fraction": 0.877,
+   "deltas": {
+    "ndvi": -0.1181,
+    "ndbi": 0.4365,
+    "ndwi": 0.0249
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 5.78,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    75,
+    15
+   ],
+   "bbox_lnglat": [
+    -114.212884,
+    50.868748,
+    -114.205743,
+    50.873255
+   ],
+   "center_lnglat": [
+    -114.209314,
+    50.871001
+   ],
+   "score": 5.77,
+   "valid_fraction": 0.949,
+   "deltas": {
+    "ndvi": -0.1489,
+    "ndbi": 0.4362,
+    "ndwi": 0.0312
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 5.77,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    76,
+    11
+   ],
+   "bbox_lnglat": [
+    -114.241449,
+    50.864241,
+    -114.234308,
+    50.868748
+   ],
+   "center_lnglat": [
+    -114.237878,
+    50.866495
+   ],
+   "score": 5.77,
+   "valid_fraction": 0.994,
+   "deltas": {
+    "ndvi": -0.0254,
+    "ndbi": 0.4359,
+    "ndwi": -0.0782
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 5.77,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    76,
+    29
+   ],
+   "bbox_lnglat": [
+    -114.11291,
+    50.864241,
+    -114.105769,
+    50.868748
+   ],
+   "center_lnglat": [
+    -114.109339,
+    50.866495
+   ],
+   "score": 5.73,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": -0.187,
+    "ndbi": 0.4339,
+    "ndwi": 0.0048
+   },
+   "z": {
+    "ndvi": 0.0,
+    "ndbi": 5.73,
+    "ndwi": 0.0
+   },
+   "dominant": "ndbi",
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)"
+  },
+  {
+   "cell": [
+    65,
+    17
+   ],
+   "bbox_lnglat": [
+    -114.198602,
+    50.913793,
+    -114.191461,
+    50.918295
+   ],
+   "center_lnglat": [
+    -114.195032,
+    50.916044
+   ],
+   "score": 5.71,
+   "valid_fraction": 0.962,
+   "deltas": {
+    "ndvi": -0.3447,
+    "ndbi": 0.3435,
+    "ndwi": 0.1649
+   },
+   "z": {
+    "ndvi": -5.71,
+    "ndbi": 4.22,
+    "ndwi": 3.34
+   },
+   "dominant": "ndvi",
+   "deterministic_hint": "vegetation loss (possible clearing, grading, construction, harvest, or senescence)"
+  },
+  {
+   "cell": [
+    58,
+    1
+   ],
+   "bbox_lnglat": [
+    -114.312859,
+    50.945299,
+    -114.305718,
+    50.949798
+   ],
+   "center_lnglat": [
+    -114.309288,
+    50.947549
+   ],
+   "score": 5.7,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "ndvi": -0.3443,
+    "ndbi": 0.2021,
+    "ndwi": 0.1516
+   },
+   "z": {
+    "ndvi": -5.7,
+    "ndbi": 0.0,
+    "ndwi": 0.0
+   },
+   "dominant": "ndvi",
+   "deterministic_hint": "vegetation loss (possible clearing, grading, construction, harvest, or senescence)"
+  }
+ ],
+ "annotations": [
+  {
+   "cell": [
+    81,
+    7
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.843955
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.8417,
+    -114.262872,
+    50.846209
+   ],
+   "community": null,
+   "panel": "changes/cell_81_7.webp",
+   "score": 10.43,
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    80,
+    7
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.848464
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.846209,
+    -114.262872,
+    50.850718
+   ],
+   "community": null,
+   "panel": "changes/cell_80_7.webp",
+   "score": 9.59,
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    81,
+    8
+   ],
+   "center_lnglat": [
+    -114.259301,
+    50.843955
+   ],
+   "bbox_lnglat": [
+    -114.262872,
+    50.8417,
+    -114.255731,
+    50.846209
+   ],
+   "community": null,
+   "panel": "changes/cell_81_8.webp",
+   "score": 9.01,
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    76,
+    6
+   ],
+   "center_lnglat": [
+    -114.273583,
+    50.866495
+   ],
+   "bbox_lnglat": [
+    -114.277154,
+    50.864241,
+    -114.270013,
+    50.868748
+   ],
+   "community": null,
+   "panel": "changes/cell_76_6.webp",
+   "score": 8.99,
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    80,
+    8
+   ],
+   "center_lnglat": [
+    -114.259301,
+    50.848464
+   ],
+   "bbox_lnglat": [
+    -114.262872,
+    50.846209,
+    -114.255731,
+    50.850718
+   ],
+   "community": null,
+   "panel": "changes/cell_80_8.webp",
+   "score": 8.7,
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    75,
+    6
+   ],
+   "center_lnglat": [
+    -114.273583,
+    50.871001
+   ],
+   "bbox_lnglat": [
+    -114.277154,
+    50.868748,
+    -114.270013,
+    50.873255
+   ],
+   "community": null,
+   "panel": "changes/cell_75_6.webp",
+   "score": 8.47,
+   "deterministic_hint": "less surface water (drainage, drying, ice cover)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    71,
+    24
+   ],
+   "center_lnglat": [
+    -114.145045,
+    50.889024
+   ],
+   "bbox_lnglat": [
+    -114.148615,
+    50.886771,
+    -114.141474,
+    50.891276
+   ],
+   "community": null,
+   "panel": "changes/cell_71_24.webp",
+   "score": 8.34,
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    81,
+    14
+   ],
+   "center_lnglat": [
+    -114.216455,
+    50.843955
+   ],
+   "bbox_lnglat": [
+    -114.220026,
+    50.8417,
+    -114.212884,
+    50.846209
+   ],
+   "community": null,
+   "panel": "changes/cell_81_14.webp",
+   "score": 8.32,
+   "deterministic_hint": "more built-up / bare surface (new structures, pavement, exposed soil)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  }
+ ]
+}

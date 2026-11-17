@@ -76,6 +76,20 @@
    "files": {
     "rgb": "communities/killarney-glengarry_rgb.webp"
    }
+  },
+  {
+   "pass_id": "S2C_20261116T1850",
+   "datetime": "2026-11-16T18:50:06.900000Z",
+   "sensor": "sentinel-2",
+   "coverage": 1.0,
+   "usable_fraction": 1.0,
+   "ndvi_mean": 0.2579,
+   "ndbi_mean": 0.0309,
+   "ndwi_mean": -0.3518,
+   "files": {
+    "rgb": "communities/killarney-glengarry_rgb.webp",
+    "falsecolor": "communities/killarney-glengarry_falsecolor.webp"
+   }
   }
  ]
 }

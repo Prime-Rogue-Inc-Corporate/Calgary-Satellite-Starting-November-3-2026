@@ -1,5 +1,245 @@
 [
  {
+  "id": "sat:S2C_20261116T1850:81-7",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.266442,
+    50.843955
+   ]
+  },
+  "bbox_lnglat": [
+   -114.270013,
+   50.8417,
+   -114.262872,
+   50.846209
+  ],
+  "community": null,
+  "datetime": "2026-11-16T18:50:06.900000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2C_20261116T1850",
+  "title": "more built-up / bare surface (new structures, pavement, exposed soil)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/16/S2C_20261116T1850/changes/cell_81_7.webp",
+  "annotation": null,
+  "score": 10.43
+ },
+ {
+  "id": "sat:S2C_20261116T1850:80-7",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.266442,
+    50.848464
+   ]
+  },
+  "bbox_lnglat": [
+   -114.270013,
+   50.846209,
+   -114.262872,
+   50.850718
+  ],
+  "community": null,
+  "datetime": "2026-11-16T18:50:06.900000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2C_20261116T1850",
+  "title": "more built-up / bare surface (new structures, pavement, exposed soil)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/16/S2C_20261116T1850/changes/cell_80_7.webp",
+  "annotation": null,
+  "score": 9.59
+ },
+ {
+  "id": "sat:S2C_20261116T1850:81-8",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.259301,
+    50.843955
+   ]
+  },
+  "bbox_lnglat": [
+   -114.262872,
+   50.8417,
+   -114.255731,
+   50.846209
+  ],
+  "community": null,
+  "datetime": "2026-11-16T18:50:06.900000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2C_20261116T1850",
+  "title": "more built-up / bare surface (new structures, pavement, exposed soil)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/16/S2C_20261116T1850/changes/cell_81_8.webp",
+  "annotation": null,
+  "score": 9.01
+ },
+ {
+  "id": "sat:S2C_20261116T1850:76-6",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.273583,
+    50.866495
+   ]
+  },
+  "bbox_lnglat": [
+   -114.277154,
+   50.864241,
+   -114.270013,
+   50.868748
+  ],
+  "community": null,
+  "datetime": "2026-11-16T18:50:06.900000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2C_20261116T1850",
+  "title": "more built-up / bare surface (new structures, pavement, exposed soil)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/16/S2C_20261116T1850/changes/cell_76_6.webp",
+  "annotation": null,
+  "score": 8.99
+ },
+ {
+  "id": "sat:S2C_20261116T1850:80-8",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.259301,
+    50.848464
+   ]
+  },
+  "bbox_lnglat": [
+   -114.262872,
+   50.846209,
+   -114.255731,
+   50.850718
+  ],
+  "community": null,
+  "datetime": "2026-11-16T18:50:06.900000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2C_20261116T1850",
+  "title": "more built-up / bare surface (new structures, pavement, exposed soil)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/16/S2C_20261116T1850/changes/cell_80_8.webp",
+  "annotation": null,
+  "score": 8.7
+ },
+ {
+  "id": "sat:S2C_20261116T1850:75-6",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.273583,
+    50.871001
+   ]
+  },
+  "bbox_lnglat": [
+   -114.277154,
+   50.868748,
+   -114.270013,
+   50.873255
+  ],
+  "community": null,
+  "datetime": "2026-11-16T18:50:06.900000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2C_20261116T1850",
+  "title": "less surface water (drainage, drying, ice cover)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/16/S2C_20261116T1850/changes/cell_75_6.webp",
+  "annotation": null,
+  "score": 8.47
+ },
+ {
+  "id": "sat:S2C_20261116T1850:71-24",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.145045,
+    50.889024
+   ]
+  },
+  "bbox_lnglat": [
+   -114.148615,
+   50.886771,
+   -114.141474,
+   50.891276
+  ],
+  "community": null,
+  "datetime": "2026-11-16T18:50:06.900000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2C_20261116T1850",
+  "title": "more built-up / bare surface (new structures, pavement, exposed soil)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/16/S2C_20261116T1850/changes/cell_71_24.webp",
+  "annotation": null,
+  "score": 8.34
+ },
+ {
+  "id": "sat:S2C_20261116T1850:81-14",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.216455,
+    50.843955
+   ]
+  },
+  "bbox_lnglat": [
+   -114.220026,
+   50.8417,
+   -114.212884,
+   50.846209
+  ],
+  "community": null,
+  "datetime": "2026-11-16T18:50:06.900000Z",
+  "source": "sentinel-2",
+  "pass_id": "S2C_20261116T1850",
+  "title": "more built-up / bare surface (new structures, pavement, exposed soil)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-2/2026/11/16/S2C_20261116T1850/changes/cell_81_14.webp",
+  "annotation": null,
+  "score": 8.32
+ },
+ {
   "id": "sat:S2B_20261108T1840:62-55",
   "type": "satellite_change",
   "geo_scope": "point",
