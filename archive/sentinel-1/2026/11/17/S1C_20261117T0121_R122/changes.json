@@ -1,0 +1,1105 @@
+{
+ "current": "S1C_20261117T0121_R122",
+ "baseline": "S1C_20261105T0121_R122",
+ "gap_days": 11,
+ "method": "500 m cells; robust z >= 4.0 vs city-wide cell distribution; both-clear fraction >= 0.6",
+ "eligible_cells": 5248,
+ "total_cells": 5248,
+ "scene_median_delta": {
+  "vv_db": -0.3441,
+  "vh_db": -0.43
+ },
+ "flagged_count": 32,
+ "flagged": [
+  {
+   "cell": [
+    51,
+    29
+   ],
+   "bbox_lnglat": [
+    -114.11291,
+    50.976783,
+    -114.105769,
+    50.981279
+   ],
+   "center_lnglat": [
+    -114.109339,
+    50.979032
+   ],
+   "score": 12.62,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 5.5449,
+    "vh_db": 0.0652
+   },
+   "z": {
+    "vv_db": 12.62,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)"
+  },
+  {
+   "cell": [
+    60,
+    7
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.9363,
+    -114.262872,
+    50.9408
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.93855
+   ],
+   "score": 11.38,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -5.6546,
+    "vh_db": -4.4277
+   },
+   "z": {
+    "vv_db": -11.38,
+    "vh_db": -7.23
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)"
+  },
+  {
+   "cell": [
+    68,
+    11
+   ],
+   "bbox_lnglat": [
+    -114.241449,
+    50.900284,
+    -114.234308,
+    50.904788
+   ],
+   "center_lnglat": [
+    -114.237878,
+    50.902536
+   ],
+   "score": 11.07,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -5.5069,
+    "vh_db": -4.7999
+   },
+   "z": {
+    "vv_db": -11.07,
+    "vh_db": -7.91
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)"
+  },
+  {
+   "cell": [
+    59,
+    58
+   ],
+   "bbox_lnglat": [
+    -113.90582,
+    50.9408,
+    -113.898679,
+    50.945299
+   ],
+   "center_lnglat": [
+    -113.90225,
+    50.943049
+   ],
+   "score": 10.13,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 4.3824,
+    "vh_db": 1.1081
+   },
+   "z": {
+    "vv_db": 10.13,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)"
+  },
+  {
+   "cell": [
+    51,
+    30
+   ],
+   "bbox_lnglat": [
+    -114.105769,
+    50.976783,
+    -114.098628,
+    50.981279
+   ],
+   "center_lnglat": [
+    -114.102198,
+    50.979032
+   ],
+   "score": 10.0,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 4.32,
+    "vh_db": 0.074
+   },
+   "z": {
+    "vv_db": 10.0,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)"
+  },
+  {
+   "cell": [
+    59,
+    7
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.9408,
+    -114.262872,
+    50.945299
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.943049
+   ],
+   "score": 9.48,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -4.7682,
+    "vh_db": -4.8682
+   },
+   "z": {
+    "vv_db": -9.48,
+    "vh_db": -8.03
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)"
+  },
+  {
+   "cell": [
+    50,
+    27
+   ],
+   "bbox_lnglat": [
+    -114.127192,
+    50.981279,
+    -114.120051,
+    50.985775
+   ],
+   "center_lnglat": [
+    -114.123622,
+    50.983527
+   ],
+   "score": 9.1,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 3.901,
+    "vh_db": -0.0125
+   },
+   "z": {
+    "vv_db": 9.1,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)"
+  },
+  {
+   "cell": [
+    66,
+    16
+   ],
+   "bbox_lnglat": [
+    -114.205743,
+    50.909291,
+    -114.198602,
+    50.913793
+   ],
+   "center_lnglat": [
+    -114.202173,
+    50.911542
+   ],
+   "score": 8.43,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -3.0586,
+    "vh_db": -5.0876
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -8.43
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    51,
+    28
+   ],
+   "bbox_lnglat": [
+    -114.120051,
+    50.976783,
+    -114.11291,
+    50.981279
+   ],
+   "center_lnglat": [
+    -114.116481,
+    50.979032
+   ],
+   "score": 8.23,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 3.4963,
+    "vh_db": 0.0346
+   },
+   "z": {
+    "vv_db": 8.23,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)"
+  },
+  {
+   "cell": [
+    59,
+    59
+   ],
+   "bbox_lnglat": [
+    -113.898679,
+    50.9408,
+    -113.891538,
+    50.945299
+   ],
+   "center_lnglat": [
+    -113.895108,
+    50.943049
+   ],
+   "score": 7.98,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 3.3792,
+    "vh_db": 1.0562
+   },
+   "z": {
+    "vv_db": 7.98,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)"
+  },
+  {
+   "cell": [
+    50,
+    28
+   ],
+   "bbox_lnglat": [
+    -114.120051,
+    50.981279,
+    -114.11291,
+    50.985775
+   ],
+   "center_lnglat": [
+    -114.116481,
+    50.983527
+   ],
+   "score": 7.43,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 3.1232,
+    "vh_db": 0.1553
+   },
+   "z": {
+    "vv_db": 7.43,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)"
+  },
+  {
+   "cell": [
+    67,
+    11
+   ],
+   "bbox_lnglat": [
+    -114.241449,
+    50.904788,
+    -114.234308,
+    50.909291
+   ],
+   "center_lnglat": [
+    -114.237878,
+    50.907039
+   ],
+   "score": 6.79,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -3.513,
+    "vh_db": -3.2091
+   },
+   "z": {
+    "vv_db": -6.79,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)"
+  },
+  {
+   "cell": [
+    50,
+    26
+   ],
+   "bbox_lnglat": [
+    -114.134333,
+    50.981279,
+    -114.127192,
+    50.985775
+   ],
+   "center_lnglat": [
+    -114.130763,
+    50.983527
+   ],
+   "score": 6.69,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 2.7785,
+    "vh_db": -0.1412
+   },
+   "z": {
+    "vv_db": 6.69,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)"
+  },
+  {
+   "cell": [
+    61,
+    7
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.931799,
+    -114.262872,
+    50.9363
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.934049
+   ],
+   "score": 6.67,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -3.4546,
+    "vh_db": -3.276
+   },
+   "z": {
+    "vv_db": -6.67,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)"
+  },
+  {
+   "cell": [
+    67,
+    16
+   ],
+   "bbox_lnglat": [
+    -114.205743,
+    50.904788,
+    -114.198602,
+    50.909291
+   ],
+   "center_lnglat": [
+    -114.202173,
+    50.907039
+   ],
+   "score": 6.65,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -2.6575,
+    "vh_db": -4.1029
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.65
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    68,
+    17
+   ],
+   "bbox_lnglat": [
+    -114.198602,
+    50.900284,
+    -114.191461,
+    50.904788
+   ],
+   "center_lnglat": [
+    -114.195032,
+    50.902536
+   ],
+   "score": 6.51,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -1.1792,
+    "vh_db": -4.0283
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.51
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    53,
+    7
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.96779,
+    -114.262872,
+    50.972287
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.970039
+   ],
+   "score": 6.5,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -2.8378,
+    "vh_db": -4.0207
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.5
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    68,
+    16
+   ],
+   "bbox_lnglat": [
+    -114.205743,
+    50.900284,
+    -114.198602,
+    50.904788
+   ],
+   "center_lnglat": [
+    -114.202173,
+    50.902536
+   ],
+   "score": 6.46,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -2.0004,
+    "vh_db": -4.0014
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.46
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    80,
+    4
+   ],
+   "bbox_lnglat": [
+    -114.291436,
+    50.846209,
+    -114.284295,
+    50.850718
+   ],
+   "center_lnglat": [
+    -114.287865,
+    50.848464
+   ],
+   "score": 6.41,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -1.5316,
+    "vh_db": -3.9713
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.41
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    66,
+    17
+   ],
+   "bbox_lnglat": [
+    -114.198602,
+    50.909291,
+    -114.191461,
+    50.913793
+   ],
+   "center_lnglat": [
+    -114.195032,
+    50.911542
+   ],
+   "score": 6.35,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -2.9475,
+    "vh_db": -3.9399
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.35
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    79,
+    5
+   ],
+   "bbox_lnglat": [
+    -114.284295,
+    50.850718,
+    -114.277154,
+    50.855226
+   ],
+   "center_lnglat": [
+    -114.280724,
+    50.852972
+   ],
+   "score": 6.35,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -1.2155,
+    "vh_db": -3.9376
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.35
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    74,
+    10
+   ],
+   "bbox_lnglat": [
+    -114.24859,
+    50.873255,
+    -114.241449,
+    50.877761
+   ],
+   "center_lnglat": [
+    -114.245019,
+    50.875508
+   ],
+   "score": 6.28,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -2.4466,
+    "vh_db": -3.9005
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.28
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    79,
+    4
+   ],
+   "bbox_lnglat": [
+    -114.291436,
+    50.850718,
+    -114.284295,
+    50.855226
+   ],
+   "center_lnglat": [
+    -114.287865,
+    50.852972
+   ],
+   "score": 6.28,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -1.5803,
+    "vh_db": -3.8985
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.28
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    78,
+    4
+   ],
+   "bbox_lnglat": [
+    -114.291436,
+    50.855226,
+    -114.284295,
+    50.859734
+   ],
+   "center_lnglat": [
+    -114.287865,
+    50.85748
+   ],
+   "score": 6.26,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -1.7243,
+    "vh_db": -3.8906
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.26
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    65,
+    16
+   ],
+   "bbox_lnglat": [
+    -114.205743,
+    50.913793,
+    -114.198602,
+    50.918295
+   ],
+   "center_lnglat": [
+    -114.202173,
+    50.916044
+   ],
+   "score": 6.13,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -3.0266,
+    "vh_db": -3.8151
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.13
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    73,
+    3
+   ],
+   "bbox_lnglat": [
+    -114.298577,
+    50.877761,
+    -114.291436,
+    50.882266
+   ],
+   "center_lnglat": [
+    -114.295006,
+    50.880013
+   ],
+   "score": 6.07,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -2.4636,
+    "vh_db": -3.782
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -6.07
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    78,
+    3
+   ],
+   "bbox_lnglat": [
+    -114.298577,
+    50.855226,
+    -114.291436,
+    50.859734
+   ],
+   "center_lnglat": [
+    -114.295006,
+    50.85748
+   ],
+   "score": 5.9,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -2.2243,
+    "vh_db": -3.6918
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -5.9
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    55,
+    11
+   ],
+   "bbox_lnglat": [
+    -114.241449,
+    50.958795,
+    -114.234308,
+    50.963293
+   ],
+   "center_lnglat": [
+    -114.237878,
+    50.961044
+   ],
+   "score": 5.84,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -1.9159,
+    "vh_db": -3.6601
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -5.84
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    77,
+    3
+   ],
+   "bbox_lnglat": [
+    -114.298577,
+    50.859734,
+    -114.291436,
+    50.864241
+   ],
+   "center_lnglat": [
+    -114.295006,
+    50.861988
+   ],
+   "score": 5.8,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -2.9052,
+    "vh_db": -3.6349
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -5.8
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    67,
+    17
+   ],
+   "bbox_lnglat": [
+    -114.198602,
+    50.904788,
+    -114.191461,
+    50.909291
+   ],
+   "center_lnglat": [
+    -114.195032,
+    50.907039
+   ],
+   "score": 5.75,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -1.9338,
+    "vh_db": -3.6105
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -5.75
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    68,
+    20
+   ],
+   "bbox_lnglat": [
+    -114.177179,
+    50.900284,
+    -114.170038,
+    50.904788
+   ],
+   "center_lnglat": [
+    -114.173609,
+    50.902536
+   ],
+   "score": 5.71,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -2.3272,
+    "vh_db": -3.5875
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -5.71
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  },
+  {
+   "cell": [
+    53,
+    10
+   ],
+   "bbox_lnglat": [
+    -114.24859,
+    50.96779,
+    -114.241449,
+    50.972287
+   ],
+   "center_lnglat": [
+    -114.245019,
+    50.970039
+   ],
+   "score": 5.68,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -3.0033,
+    "vh_db": -3.5666
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": -5.68
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol decrease (vegetation removal)"
+  }
+ ],
+ "annotations": [
+  {
+   "cell": [
+    51,
+    29
+   ],
+   "center_lnglat": [
+    -114.109339,
+    50.979032
+   ],
+   "bbox_lnglat": [
+    -114.11291,
+    50.976783,
+    -114.105769,
+    50.981279
+   ],
+   "community": "GLENMORE PARK",
+   "panel": "changes/cell_51_29.webp",
+   "score": 12.62,
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    60,
+    7
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.93855
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.9363,
+    -114.262872,
+    50.9408
+   ],
+   "community": null,
+   "panel": "changes/cell_60_7.webp",
+   "score": 11.38,
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    68,
+    11
+   ],
+   "center_lnglat": [
+    -114.237878,
+    50.902536
+   ],
+   "bbox_lnglat": [
+    -114.241449,
+    50.900284,
+    -114.234308,
+    50.904788
+   ],
+   "community": null,
+   "panel": "changes/cell_68_11.webp",
+   "score": 11.07,
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    59,
+    58
+   ],
+   "center_lnglat": [
+    -113.90225,
+    50.943049
+   ],
+   "bbox_lnglat": [
+    -113.90582,
+    50.9408,
+    -113.898679,
+    50.945299
+   ],
+   "community": "12B",
+   "panel": "changes/cell_59_58.webp",
+   "score": 10.13,
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    51,
+    30
+   ],
+   "center_lnglat": [
+    -114.102198,
+    50.979032
+   ],
+   "bbox_lnglat": [
+    -114.105769,
+    50.976783,
+    -114.098628,
+    50.981279
+   ],
+   "community": "GLENMORE PARK",
+   "panel": "changes/cell_51_30.webp",
+   "score": 10.0,
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    59,
+    7
+   ],
+   "center_lnglat": [
+    -114.266442,
+    50.943049
+   ],
+   "bbox_lnglat": [
+    -114.270013,
+    50.9408,
+    -114.262872,
+    50.945299
+   ],
+   "community": null,
+   "panel": "changes/cell_59_7.webp",
+   "score": 9.48,
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    50,
+    27
+   ],
+   "center_lnglat": [
+    -114.123622,
+    50.983527
+   ],
+   "bbox_lnglat": [
+    -114.127192,
+    50.981279,
+    -114.120051,
+    50.985775
+   ],
+   "community": "GLENMORE PARK",
+   "panel": "changes/cell_50_27.webp",
+   "score": 9.1,
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    66,
+    16
+   ],
+   "center_lnglat": [
+    -114.202173,
+    50.911542
+   ],
+   "bbox_lnglat": [
+    -114.205743,
+    50.909291,
+    -114.198602,
+    50.913793
+   ],
+   "community": "13A",
+   "panel": "changes/cell_66_16.webp",
+   "score": 8.43,
+   "deterministic_hint": "cross-pol decrease (vegetation removal)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  }
+ ]
+}

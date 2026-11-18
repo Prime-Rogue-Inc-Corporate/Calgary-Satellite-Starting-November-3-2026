@@ -90,6 +90,18 @@
     "rgb": "communities/tuscany_rgb.webp",
     "falsecolor": "communities/tuscany_falsecolor.webp"
    }
+  },
+  {
+   "pass_id": "S1C_20261117T0121_R122",
+   "datetime": "2026-11-17T01:21:15.301681Z",
+   "sensor": "sentinel-1",
+   "coverage": 1.0,
+   "usable_fraction": 1.0,
+   "vv_db_mean": -8.9421,
+   "vh_db_mean": -15.9382,
+   "files": {
+    "rgb": "communities/tuscany_rgb.webp"
+   }
   }
  ]
 }

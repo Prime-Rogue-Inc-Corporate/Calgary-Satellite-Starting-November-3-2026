@@ -1,5 +1,245 @@
 [
  {
+  "id": "sat:S1C_20261117T0121_R122:51-29",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.109339,
+    50.979032
+   ]
+  },
+  "bbox_lnglat": [
+   -114.11291,
+   50.976783,
+   -114.105769,
+   50.981279
+  ],
+  "community": "GLENMORE PARK",
+  "datetime": "2026-11-17T01:21:15.301681Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261117T0121_R122",
+  "title": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/17/S1C_20261117T0121_R122/changes/cell_51_29.webp",
+  "annotation": null,
+  "score": 12.62
+ },
+ {
+  "id": "sat:S1C_20261117T0121_R122:60-7",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.266442,
+    50.93855
+   ]
+  },
+  "bbox_lnglat": [
+   -114.270013,
+   50.9363,
+   -114.262872,
+   50.9408
+  ],
+  "community": null,
+  "datetime": "2026-11-17T01:21:15.301681Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261117T0121_R122",
+  "title": "radar backscatter decrease (demolition, smoothing, standing water)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/17/S1C_20261117T0121_R122/changes/cell_60_7.webp",
+  "annotation": null,
+  "score": 11.38
+ },
+ {
+  "id": "sat:S1C_20261117T0121_R122:68-11",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.237878,
+    50.902536
+   ]
+  },
+  "bbox_lnglat": [
+   -114.241449,
+   50.900284,
+   -114.234308,
+   50.904788
+  ],
+  "community": null,
+  "datetime": "2026-11-17T01:21:15.301681Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261117T0121_R122",
+  "title": "radar backscatter decrease (demolition, smoothing, standing water)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/17/S1C_20261117T0121_R122/changes/cell_68_11.webp",
+  "annotation": null,
+  "score": 11.07
+ },
+ {
+  "id": "sat:S1C_20261117T0121_R122:59-58",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -113.90225,
+    50.943049
+   ]
+  },
+  "bbox_lnglat": [
+   -113.90582,
+   50.9408,
+   -113.898679,
+   50.945299
+  ],
+  "community": "12B",
+  "datetime": "2026-11-17T01:21:15.301681Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261117T0121_R122",
+  "title": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/17/S1C_20261117T0121_R122/changes/cell_59_58.webp",
+  "annotation": null,
+  "score": 10.13
+ },
+ {
+  "id": "sat:S1C_20261117T0121_R122:51-30",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.102198,
+    50.979032
+   ]
+  },
+  "bbox_lnglat": [
+   -114.105769,
+   50.976783,
+   -114.098628,
+   50.981279
+  ],
+  "community": "GLENMORE PARK",
+  "datetime": "2026-11-17T01:21:15.301681Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261117T0121_R122",
+  "title": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/17/S1C_20261117T0121_R122/changes/cell_51_30.webp",
+  "annotation": null,
+  "score": 10.0
+ },
+ {
+  "id": "sat:S1C_20261117T0121_R122:59-7",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.266442,
+    50.943049
+   ]
+  },
+  "bbox_lnglat": [
+   -114.270013,
+   50.9408,
+   -114.262872,
+   50.945299
+  ],
+  "community": null,
+  "datetime": "2026-11-17T01:21:15.301681Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261117T0121_R122",
+  "title": "radar backscatter decrease (demolition, smoothing, standing water)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/17/S1C_20261117T0121_R122/changes/cell_59_7.webp",
+  "annotation": null,
+  "score": 9.48
+ },
+ {
+  "id": "sat:S1C_20261117T0121_R122:50-27",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.123622,
+    50.983527
+   ]
+  },
+  "bbox_lnglat": [
+   -114.127192,
+   50.981279,
+   -114.120051,
+   50.985775
+  ],
+  "community": "GLENMORE PARK",
+  "datetime": "2026-11-17T01:21:15.301681Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261117T0121_R122",
+  "title": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/17/S1C_20261117T0121_R122/changes/cell_50_27.webp",
+  "annotation": null,
+  "score": 9.1
+ },
+ {
+  "id": "sat:S1C_20261117T0121_R122:66-16",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.202173,
+    50.911542
+   ]
+  },
+  "bbox_lnglat": [
+   -114.205743,
+   50.909291,
+   -114.198602,
+   50.913793
+  ],
+  "community": "13A",
+  "datetime": "2026-11-17T01:21:15.301681Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261117T0121_R122",
+  "title": "cross-pol decrease (vegetation removal)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/17/S1C_20261117T0121_R122/changes/cell_66_16.webp",
+  "annotation": null,
+  "score": 8.43
+ },
+ {
   "id": "sat:S2C_20261116T1850:81-7",
   "type": "satellite_change",
   "geo_scope": "point",

@@ -90,6 +90,18 @@
     "rgb": "communities/beltline-full_rgb.webp",
     "falsecolor": "communities/beltline-full_falsecolor.webp"
    }
+  },
+  {
+   "pass_id": "S1C_20261117T0121_R122",
+   "datetime": "2026-11-17T01:21:15.301681Z",
+   "sensor": "sentinel-1",
+   "coverage": 1.0,
+   "usable_fraction": 1.0,
+   "vv_db_mean": -4.062,
+   "vh_db_mean": -11.2923,
+   "files": {
+    "rgb": "communities/beltline-full_rgb.webp"
+   }
   }
  ]
 }
