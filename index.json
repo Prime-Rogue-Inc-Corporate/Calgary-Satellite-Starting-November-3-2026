@@ -1131,8 +1131,30 @@
     "flagged": 32,
     "annotated": 8
    }
+  },
+  {
+   "pass_id": "L9_20261117T1823",
+   "sensor": "landsat",
+   "family": "landsat",
+   "platform": "landsat-9",
+   "datetime": "2026-11-17T18:23:41.742175Z",
+   "relative_orbit": "",
+   "status": "skipped",
+   "reason": "coverage/cloud",
+   "stats": {
+    "aoi_coverage": 0.347,
+    "clear_fraction": 0.0,
+    "water_fraction": 0.0,
+    "cloud_fraction": 1.0,
+    "snow_fraction": 0.0,
+    "usable_fraction": 0.0
+   },
+   "source_items": [
+    "LC09_L2SP_041025_20261117_02_T2",
+    "LC09_L2SP_041024_20261117_02_T1"
+   ]
   }
  ],
- "updated": "2026-11-18T04:45:15+00:00",
+ "updated": "2026-11-18T16:33:38+00:00",
  "archive_size_mb": 88
 }
