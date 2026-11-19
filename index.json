@@ -1153,8 +1153,54 @@
     "LC09_L2SP_041025_20261117_02_T2",
     "LC09_L2SP_041024_20261117_02_T1"
    ]
+  },
+  {
+   "pass_id": "S2B_20261118T1840",
+   "sensor": "sentinel-2",
+   "family": "sentinel-2",
+   "platform": "sentinel-2b",
+   "datetime": "2026-11-18T18:40:13.361000Z",
+   "relative_orbit": 27,
+   "status": "skipped",
+   "reason": "coverage/cloud",
+   "stats": {
+    "aoi_coverage": 0.3274,
+    "clear_fraction": 0.0,
+    "water_fraction": 0.0,
+    "cloud_fraction": 0.999,
+    "snow_fraction": 0.0009,
+    "usable_fraction": 0.0
+   },
+   "source_items": [
+    "S2B_11UPS_20261118_0_L2A",
+    "S2B_11UQS_20261118_1_L2A",
+    "S2B_12UUB_20261118_1_L2A"
+   ]
+  },
+  {
+   "pass_id": "S2A_20261118T1850",
+   "sensor": "sentinel-2",
+   "family": "sentinel-2",
+   "platform": "sentinel-2a",
+   "datetime": "2026-11-18T18:50:14.046000Z",
+   "relative_orbit": 70,
+   "status": "skipped",
+   "reason": "coverage/cloud",
+   "stats": {
+    "aoi_coverage": 1.0,
+    "clear_fraction": 0.0,
+    "water_fraction": 0.0,
+    "cloud_fraction": 1.0,
+    "snow_fraction": 0.0,
+    "usable_fraction": 0.0
+   },
+   "source_items": [
+    "S2A_11UPS_20261118_1_L2A",
+    "S2A_11UQS_20261118_0_L2A",
+    "S2A_12UUB_20261118_0_L2A"
+   ]
   }
  ],
- "updated": "2026-11-18T16:33:38+00:00",
+ "updated": "2026-11-19T04:35:06+00:00",
  "archive_size_mb": 88
 }
