@@ -1222,8 +1222,31 @@
     "S2B_11UQS_20261121_0_L2A",
     "S2B_12UUB_20261121_0_L2A"
    ]
+  },
+  {
+   "pass_id": "S2C_20261123T1840",
+   "sensor": "sentinel-2",
+   "family": "sentinel-2",
+   "platform": "sentinel-2c",
+   "datetime": "2026-11-23T18:40:11.200000Z",
+   "relative_orbit": 27,
+   "status": "skipped",
+   "reason": "coverage/cloud",
+   "stats": {
+    "aoi_coverage": 0.3261,
+    "clear_fraction": 0.0008,
+    "water_fraction": 0.0011,
+    "cloud_fraction": 0.6689,
+    "snow_fraction": 0.3292,
+    "usable_fraction": 0.0019
+   },
+   "source_items": [
+    "S2C_11UPS_20261123_0_L2A",
+    "S2C_11UQS_20261123_1_L2A",
+    "S2C_12UUB_20261123_1_L2A"
+   ]
   }
  ],
- "updated": "2026-11-23T19:20:04+00:00",
- "archive_size_mb": 91
+ "updated": "2026-11-24T07:08:11+00:00",
+ "archive_size_mb": 92
 }
