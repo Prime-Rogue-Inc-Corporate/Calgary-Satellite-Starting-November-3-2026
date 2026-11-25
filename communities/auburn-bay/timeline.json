@@ -126,6 +126,18 @@
    "files": {
     "rgb": "communities/auburn-bay_rgb.webp"
    }
+  },
+  {
+   "pass_id": "S1C_20261122T0129_R020",
+   "datetime": "2026-11-22T01:29:36.753421Z",
+   "sensor": "sentinel-1",
+   "coverage": 1.0,
+   "usable_fraction": 1.0,
+   "vv_db_mean": -8.997,
+   "vh_db_mean": -15.9504,
+   "files": {
+    "rgb": "communities/auburn-bay_rgb.webp"
+   }
   }
  ]
 }

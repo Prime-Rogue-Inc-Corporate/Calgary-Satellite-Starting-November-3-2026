@@ -1,0 +1,489 @@
+{
+ "current": "S1C_20261122T0129_R020",
+ "baseline": "S1C_20261110T0129_R020",
+ "gap_days": 11,
+ "method": "500 m cells; robust z >= 4.0 vs city-wide cell distribution; both-clear fraction >= 0.6",
+ "eligible_cells": 5248,
+ "total_cells": 5248,
+ "scene_median_delta": {
+  "vv_db": -0.111,
+  "vh_db": -0.1838
+ },
+ "flagged_count": 10,
+ "flagged": [
+  {
+   "cell": [
+    75,
+    23
+   ],
+   "bbox_lnglat": [
+    -114.155756,
+    50.868748,
+    -114.148615,
+    50.873255
+   ],
+   "center_lnglat": [
+    -114.152186,
+    50.871001
+   ],
+   "score": 9.21,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -5.631,
+    "vh_db": -0.8759
+   },
+   "z": {
+    "vv_db": -9.21,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)"
+  },
+  {
+   "cell": [
+    74,
+    22
+   ],
+   "bbox_lnglat": [
+    -114.162897,
+    50.873255,
+    -114.155756,
+    50.877761
+   ],
+   "center_lnglat": [
+    -114.159327,
+    50.875508
+   ],
+   "score": 7.89,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -4.8385,
+    "vh_db": -1.2172
+   },
+   "z": {
+    "vv_db": -7.89,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)"
+  },
+  {
+   "cell": [
+    75,
+    22
+   ],
+   "bbox_lnglat": [
+    -114.162897,
+    50.868748,
+    -114.155756,
+    50.873255
+   ],
+   "center_lnglat": [
+    -114.159327,
+    50.871001
+   ],
+   "score": 7.56,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -4.6426,
+    "vh_db": -0.3421
+   },
+   "z": {
+    "vv_db": -7.56,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)"
+  },
+  {
+   "cell": [
+    74,
+    21
+   ],
+   "bbox_lnglat": [
+    -114.170038,
+    50.873255,
+    -114.162897,
+    50.877761
+   ],
+   "center_lnglat": [
+    -114.166468,
+    50.875508
+   ],
+   "score": 5.76,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -3.5603,
+    "vh_db": -0.7444
+   },
+   "z": {
+    "vv_db": -5.76,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)"
+  },
+  {
+   "cell": [
+    19,
+    41
+   ],
+   "bbox_lnglat": [
+    -114.027218,
+    51.120441,
+    -114.020077,
+    51.124923
+   ],
+   "center_lnglat": [
+    -114.023647,
+    51.122682
+   ],
+   "score": 5.18,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 2.9945,
+    "vh_db": 2.8845
+   },
+   "z": {
+    "vv_db": 5.18,
+    "vh_db": 2.99
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)"
+  },
+  {
+   "cell": [
+    20,
+    41
+   ],
+   "bbox_lnglat": [
+    -114.027218,
+    51.115958,
+    -114.020077,
+    51.120441
+   ],
+   "center_lnglat": [
+    -114.023647,
+    51.118199
+   ],
+   "score": 5.18,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 2.9908,
+    "vh_db": 2.4914
+   },
+   "z": {
+    "vv_db": 5.18,
+    "vh_db": 0.0
+   },
+   "dominant": "vv_db",
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)"
+  },
+  {
+   "cell": [
+    76,
+    58
+   ],
+   "bbox_lnglat": [
+    -113.90582,
+    50.864241,
+    -113.898679,
+    50.868748
+   ],
+   "center_lnglat": [
+    -113.90225,
+    50.866495
+   ],
+   "score": 4.57,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -0.095,
+    "vh_db": 4.5057
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": 4.57
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol increase (vegetation volume or complex structures)"
+  },
+  {
+   "cell": [
+    74,
+    58
+   ],
+   "bbox_lnglat": [
+    -113.90582,
+    50.873255,
+    -113.898679,
+    50.877761
+   ],
+   "center_lnglat": [
+    -113.90225,
+    50.875508
+   ],
+   "score": 4.43,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": -0.2021,
+    "vh_db": 4.3603
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": 4.43
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol increase (vegetation volume or complex structures)"
+  },
+  {
+   "cell": [
+    75,
+    58
+   ],
+   "bbox_lnglat": [
+    -113.90582,
+    50.868748,
+    -113.898679,
+    50.873255
+   ],
+   "center_lnglat": [
+    -113.90225,
+    50.871001
+   ],
+   "score": 4.43,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 0.5939,
+    "vh_db": 4.3668
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": 4.43
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol increase (vegetation volume or complex structures)"
+  },
+  {
+   "cell": [
+    69,
+    58
+   ],
+   "bbox_lnglat": [
+    -113.90582,
+    50.89578,
+    -113.898679,
+    50.900284
+   ],
+   "center_lnglat": [
+    -113.90225,
+    50.898032
+   ],
+   "score": 4.4,
+   "valid_fraction": 1.0,
+   "deltas": {
+    "vv_db": 0.6327,
+    "vh_db": 4.3325
+   },
+   "z": {
+    "vv_db": 0.0,
+    "vh_db": 4.4
+   },
+   "dominant": "vh_db",
+   "deterministic_hint": "cross-pol increase (vegetation volume or complex structures)"
+  }
+ ],
+ "annotations": [
+  {
+   "cell": [
+    75,
+    23
+   ],
+   "center_lnglat": [
+    -114.152186,
+    50.871001
+   ],
+   "bbox_lnglat": [
+    -114.155756,
+    50.868748,
+    -114.148615,
+    50.873255
+   ],
+   "community": null,
+   "panel": "changes/cell_75_23.webp",
+   "score": 9.21,
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    74,
+    22
+   ],
+   "center_lnglat": [
+    -114.159327,
+    50.875508
+   ],
+   "bbox_lnglat": [
+    -114.162897,
+    50.873255,
+    -114.155756,
+    50.877761
+   ],
+   "community": null,
+   "panel": "changes/cell_74_22.webp",
+   "score": 7.89,
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    75,
+    22
+   ],
+   "center_lnglat": [
+    -114.159327,
+    50.871001
+   ],
+   "bbox_lnglat": [
+    -114.162897,
+    50.868748,
+    -114.155756,
+    50.873255
+   ],
+   "community": null,
+   "panel": "changes/cell_75_22.webp",
+   "score": 7.56,
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    74,
+    21
+   ],
+   "center_lnglat": [
+    -114.166468,
+    50.875508
+   ],
+   "bbox_lnglat": [
+    -114.170038,
+    50.873255,
+    -114.162897,
+    50.877761
+   ],
+   "community": null,
+   "panel": "changes/cell_74_21.webp",
+   "score": 5.76,
+   "deterministic_hint": "radar backscatter decrease (demolition, smoothing, standing water)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    19,
+    41
+   ],
+   "center_lnglat": [
+    -114.023647,
+    51.122682
+   ],
+   "bbox_lnglat": [
+    -114.027218,
+    51.120441,
+    -114.020077,
+    51.124923
+   ],
+   "community": "CALGARY INTERNATIONAL AIRPORT",
+   "panel": "changes/cell_19_41.webp",
+   "score": 5.18,
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    20,
+    41
+   ],
+   "center_lnglat": [
+    -114.023647,
+    51.118199
+   ],
+   "bbox_lnglat": [
+    -114.027218,
+    51.115958,
+    -114.020077,
+    51.120441
+   ],
+   "community": "CALGARY INTERNATIONAL AIRPORT",
+   "panel": "changes/cell_20_41.webp",
+   "score": 5.18,
+   "deterministic_hint": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    76,
+    58
+   ],
+   "center_lnglat": [
+    -113.90225,
+    50.866495
+   ],
+   "bbox_lnglat": [
+    -113.90582,
+    50.864241,
+    -113.898679,
+    50.868748
+   ],
+   "community": "12J",
+   "panel": "changes/cell_76_58.webp",
+   "score": 4.57,
+   "deterministic_hint": "cross-pol increase (vegetation volume or complex structures)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  },
+  {
+   "cell": [
+    74,
+    58
+   ],
+   "center_lnglat": [
+    -113.90225,
+    50.875508
+   ],
+   "bbox_lnglat": [
+    -113.90582,
+    50.873255,
+    -113.898679,
+    50.877761
+   ],
+   "community": "12J",
+   "panel": "changes/cell_74_58.webp",
+   "score": 4.43,
+   "deterministic_hint": "cross-pol increase (vegetation volume or complex structures)",
+   "machine_generated": true,
+   "review_status": "unreviewed",
+   "model": null,
+   "annotation": null
+  }
+ ]
+}

@@ -1,5 +1,245 @@
 [
  {
+  "id": "sat:S1C_20261122T0129_R020:75-23",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.152186,
+    50.871001
+   ]
+  },
+  "bbox_lnglat": [
+   -114.155756,
+   50.868748,
+   -114.148615,
+   50.873255
+  ],
+  "community": null,
+  "datetime": "2026-11-22T01:29:36.753421Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261122T0129_R020",
+  "title": "radar backscatter decrease (demolition, smoothing, standing water)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/22/S1C_20261122T0129_R020/changes/cell_75_23.webp",
+  "annotation": null,
+  "score": 9.21
+ },
+ {
+  "id": "sat:S1C_20261122T0129_R020:74-22",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.159327,
+    50.875508
+   ]
+  },
+  "bbox_lnglat": [
+   -114.162897,
+   50.873255,
+   -114.155756,
+   50.877761
+  ],
+  "community": null,
+  "datetime": "2026-11-22T01:29:36.753421Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261122T0129_R020",
+  "title": "radar backscatter decrease (demolition, smoothing, standing water)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/22/S1C_20261122T0129_R020/changes/cell_74_22.webp",
+  "annotation": null,
+  "score": 7.89
+ },
+ {
+  "id": "sat:S1C_20261122T0129_R020:75-22",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.159327,
+    50.871001
+   ]
+  },
+  "bbox_lnglat": [
+   -114.162897,
+   50.868748,
+   -114.155756,
+   50.873255
+  ],
+  "community": null,
+  "datetime": "2026-11-22T01:29:36.753421Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261122T0129_R020",
+  "title": "radar backscatter decrease (demolition, smoothing, standing water)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/22/S1C_20261122T0129_R020/changes/cell_75_22.webp",
+  "annotation": null,
+  "score": 7.56
+ },
+ {
+  "id": "sat:S1C_20261122T0129_R020:74-21",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.166468,
+    50.875508
+   ]
+  },
+  "bbox_lnglat": [
+   -114.170038,
+   50.873255,
+   -114.162897,
+   50.877761
+  ],
+  "community": null,
+  "datetime": "2026-11-22T01:29:36.753421Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261122T0129_R020",
+  "title": "radar backscatter decrease (demolition, smoothing, standing water)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/22/S1C_20261122T0129_R020/changes/cell_74_21.webp",
+  "annotation": null,
+  "score": 5.76
+ },
+ {
+  "id": "sat:S1C_20261122T0129_R020:19-41",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.023647,
+    51.122682
+   ]
+  },
+  "bbox_lnglat": [
+   -114.027218,
+   51.120441,
+   -114.020077,
+   51.124923
+  ],
+  "community": "CALGARY INTERNATIONAL AIRPORT",
+  "datetime": "2026-11-22T01:29:36.753421Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261122T0129_R020",
+  "title": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/22/S1C_20261122T0129_R020/changes/cell_19_41.webp",
+  "annotation": null,
+  "score": 5.18
+ },
+ {
+  "id": "sat:S1C_20261122T0129_R020:20-41",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -114.023647,
+    51.118199
+   ]
+  },
+  "bbox_lnglat": [
+   -114.027218,
+   51.115958,
+   -114.020077,
+   51.120441
+  ],
+  "community": "CALGARY INTERNATIONAL AIRPORT",
+  "datetime": "2026-11-22T01:29:36.753421Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261122T0129_R020",
+  "title": "radar backscatter increase (new hard structures, rough surfaces, metal, construction equipment)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/22/S1C_20261122T0129_R020/changes/cell_20_41.webp",
+  "annotation": null,
+  "score": 5.18
+ },
+ {
+  "id": "sat:S1C_20261122T0129_R020:76-58",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -113.90225,
+    50.866495
+   ]
+  },
+  "bbox_lnglat": [
+   -113.90582,
+   50.864241,
+   -113.898679,
+   50.868748
+  ],
+  "community": "12J",
+  "datetime": "2026-11-22T01:29:36.753421Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261122T0129_R020",
+  "title": "cross-pol increase (vegetation volume or complex structures)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/22/S1C_20261122T0129_R020/changes/cell_76_58.webp",
+  "annotation": null,
+  "score": 4.57
+ },
+ {
+  "id": "sat:S1C_20261122T0129_R020:74-58",
+  "type": "satellite_change",
+  "geo_scope": "point",
+  "geometry": {
+   "type": "Point",
+   "coordinates": [
+    -113.90225,
+    50.875508
+   ]
+  },
+  "bbox_lnglat": [
+   -113.90582,
+   50.873255,
+   -113.898679,
+   50.877761
+  ],
+  "community": "12J",
+  "datetime": "2026-11-22T01:29:36.753421Z",
+  "source": "sentinel-1",
+  "pass_id": "S1C_20261122T0129_R020",
+  "title": "cross-pol increase (vegetation volume or complex structures)",
+  "category": "unclear",
+  "confidence": "low",
+  "machine_generated": true,
+  "review_status": "unreviewed",
+  "panel": "archive/sentinel-1/2026/11/22/S1C_20261122T0129_R020/changes/cell_74_58.webp",
+  "annotation": null,
+  "score": 4.43
+ },
+ {
   "id": "sat:S1C_20261117T0121_R122:51-29",
   "type": "satellite_change",
   "geo_scope": "point",
